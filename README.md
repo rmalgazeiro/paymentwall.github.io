@@ -2,6 +2,9 @@
 
 A set of documents which helps you to easily understand and integration Paymentwall products into your application.
 
+* [Docs](https://paymentwall.github.io/home).
+
+* [Full API References](https://paymentwall.github.io/API-Reference).
 
 ## About Paymentwall
 [Paymentwall](http://paymentwall.com/?source=gh) is the leading digital payments platform for globally monetizing digital goods and services. Paymentwall assists game publishers, dating sites, rewards sites, SaaS companies and many other verticals to monetize their digital content and services. 
