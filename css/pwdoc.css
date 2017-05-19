@@ -795,7 +795,7 @@ to {
 #nav-smarttv-sdk{
     font-weight: bold;
     font-size: 14px;
-    color: #7a8387;
+    color: #979b9d;
 }
 
 #nav-desktop-brick-set-product {
@@ -842,10 +842,6 @@ to {
     display: block;
 }
 
-#Home {
-    margin-top: 30px;
-}
-
 .maincontent{
     position: absolute;
     width: 80%;
@@ -859,6 +855,8 @@ to {
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
+    border-left: 0.5px solid;
+    border-color: #ebf1f3;
 }
 
 .doc-content ul {
