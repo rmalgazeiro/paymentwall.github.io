@@ -1,0 +1,101 @@
+- title: API REFERENCE
+  items:
+    - name: section-head
+      title: Introduction
+- title: BRICK
+  items:
+    - name: section-brick-onetime-token
+      title: Onetime token
+      subitems: 
+        - name: section-brick-onetime-token-object
+          title: Onetime token object 
+    - name: section-brick-charge
+      title: Charge
+      subitems: 
+        - name: section-brick-charge-object
+          title: Response object
+    - name: section-brick-subscription
+      title: Subscription
+      subitems:
+        - name: section-brick-subscription-object
+          title: Response object
+- title: PAYALTO
+  items:
+    - name: section-payalto
+      title: About
+    - name: section-payalto-stored
+      title: Stored product
+      subitems:
+        - name: section-payalto-stored-dg
+          title: Digital Goods
+        - name: section-payalto-stored-vc
+          title: Virtual Currency
+    - name: section-payalto-flexible
+      title: Flexible product
+      subitems: 
+        - name: section-payalto-flexible-onetime
+          title: Onetime
+        - name: section-payalto-flexible-subscription
+          title: Subscription
+        - name: section-payalto-flexible-serverside
+          title: Server Side
+    - name: section-payalto-optional-parameter
+      title: Optional Parameter
+- title: MOBIAMO
+  items:
+    - name: section-mobiamo-pricepoint
+      title: Pricepoint
+- title: MINT
+  items:
+    - name: section-mint-reseller
+      title: MINT reseller
+      subitems:
+        - name: section-mint-reseller-generate
+          title: Generate ePIN
+        - name: section-mint-reseller-balance
+          title: Get ePIN balance 
+    - name: section-mint-redemption
+      title: MINT redemption
+- title: INVOICE
+  items:
+    - name: section-invoice
+      title: Invoice
+      subitems:
+        - name: section-invoice-contacts
+          title: Contacts
+        - name: section-invoice-items
+          title: Items
+        - name: section-invoice-tax_invoice
+          title: Invoice tax/discount
+        - name: section-invoice-tax_item
+          title: Iteam tax/discount
+        - name: section-invoice-response
+          title: Response attributes
+- title: TOOLS
+  items:
+    - name: section-tools-cancellation
+      title: Cancellation
+    - name: section-tools-coupon
+      title: Coupon
+      subitems:
+        - name: section-tools-coupon-create
+          title: Create a coupon
+        - name: section-tools-coupon-info
+          title: Retrieve coupon info
+    - name: section-tools-delivery-confirmation
+      title: Delivery confirmation
+      subitems:
+        - name: section-tools-delivery-confirmation-digital
+          title: Digital
+        - name: section-tools-delivery-confirmation-physical
+          title: Physical
+        - name: section-tools-delivery-confirmation-status
+          title: Status
+    - name: section-tools-payment-status
+      title: Payment status
+    - name: section-tools-payment-systems
+      title: Payment systems
+    - name: section-tools-product-details
+      title: Product details
+- items:
+    - name: section-footer
