@@ -1,5 +1,4 @@
 $(document).ready(function() {
-
 	main.init();
 
 })
@@ -14,6 +13,7 @@ const main = {
     },
     init: function(options) {
         main.options = $.extend(main.options, options);
+        main.tools.highlightNavigation.call(this, null);
         
         $(window).on('scroll', function(){
             main.tools.highlightNavigation.call(this, null);

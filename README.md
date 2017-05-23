@@ -2,7 +2,7 @@
 
 A set of documents which helps you to easily understand and integration Paymentwall products into your application.
 
-* [Docs](https://paymentwall.github.io/home).
+* [Docs](https://paymentwall.github.io/).
 
 * [Full API References](https://paymentwall.github.io/API-Reference).
 

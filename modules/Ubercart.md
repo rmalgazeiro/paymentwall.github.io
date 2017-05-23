@@ -55,7 +55,7 @@ Paymentwall is compatible up to Drupal 6 & Ubercart 3.0.
 > Contact [module@paymentwall.com](mailto:module@paymentwall.com) if you find the version of your Ubercart module is not supported.
 
 
-# Next step
+## Next step
 
 You can start to test payments of your projects.
 

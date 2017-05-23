@@ -1,8 +1,8 @@
 ---
 id: home
 title: Home
+layout: docs
 sectionid: docs
-permalink: home
 ---
 
 # Documentation

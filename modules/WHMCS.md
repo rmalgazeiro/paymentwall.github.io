@@ -62,7 +62,7 @@ Paymentwall provides supports for bellow WHMCS versions.
 > Contact [module@paymentwall.com](mailto:module@paymentwall.com) if you find the version of your WHMCS module is not supported.
 
 
-# Next step
+## Next step
 
 You can start to test payments of your projects.
 

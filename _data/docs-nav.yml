@@ -1,6 +1,6 @@
 - id: nav-home
   title: Home
-  path: /paymentwall.github.io/home
+  path: /paymentwall.github.io/
 - id: nav-desktop
   title: Desktop
   items:

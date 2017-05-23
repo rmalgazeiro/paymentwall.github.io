@@ -7,7 +7,7 @@ permalink: go_live-business
 
 # Business checklist
 
-You will see business integration part on the right side. Check all the checkbox to make sure you have completed the basic business requirement before going live.
+You will see business part on the right side. Check all the checkbox to make sure you have completed the basic business requirement before going live.
 
 <div class="docs-img" style="text-align: center;">
 	<img src="/paymentwall.github.io/textures/pic/reference/golive/golive-business-checklist.png" style="width: 30%">
