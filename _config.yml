@@ -5,6 +5,9 @@ highlighter: rouge
 
 timezone: America/Los_Angeles
 
+# Google services
+google_analytics: UA-99753280-1
+
 defaults:
   - scope:
       path: apis
