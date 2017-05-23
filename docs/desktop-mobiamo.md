@@ -17,5 +17,5 @@ Mobiamo can be integrated with web applications using APIs, and iOS, Android app
 
 ## Get Mobiamo activated in a blink
 
-Please read through our guide [Integration and Activation](/paymentwall.github.io/mobiamo/mobiamo-integration) to fully activate this mobile payment option for your application without any troubles. Upon being accommodated, you can check out how different the [Payment Flows](/paymentwall.github.io/mobiamo/mobiamo-flow) on the Widget can be for the supported countries.
+Please read through our guide [Integration and Activation](/mobiamo/mobiamo-integration) to fully activate this mobile payment option for your application without any troubles. Upon being accommodated, you can check out how different the [Payment Flows](/mobiamo/mobiamo-flow) on the Widget can be for the supported countries.
 

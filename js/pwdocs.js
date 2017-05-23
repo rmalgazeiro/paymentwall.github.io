@@ -22,7 +22,7 @@ function goto(url, addEntry, id){
         show_preloader = false;
         $result = $(result);
         $result.find("script").appendTo('.maincontent');
-        $.getScript("/paymentwall.github.io/js/pwdocs-load.js");
+        $.getScript("/js/pwdocs-load.js");
         $('.showbox').css('display','none'); 
     });
 

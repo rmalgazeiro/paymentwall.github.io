@@ -11,7 +11,7 @@ Paymentwall receives product details from your Widget Call and proceed the payme
 
 ## API Call
 
-The parameter ```ag_type``` should be set as ```fixed``` in API call. See code sample for [onetime payments](/paymentwall.github.io/API-Reference#section-payalto-flexible-onetime) to perform API Call.
+The parameter ```ag_type``` should be set as ```fixed``` in API call. See code sample for [onetime payments](/API-Reference#section-payalto-flexible-onetime) to perform API Call.
 
 You can use below ways to handle the ```widget``` object.
 
@@ -25,4 +25,4 @@ After implementing the paylet you need to implement the server side pingback scr
 
 Refer to the link below for Digital Goods API pingbacks:
 
-> [Pingbacks](/paymentwall.github.io/default-pingback).
+> [Pingbacks](/default-pingback).

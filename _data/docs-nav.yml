@@ -1,171 +1,171 @@
 - id: nav-home
   title: Home
-  path: /paymentwall.github.io/
+  path: /
 - id: nav-desktop
   title: Desktop
   items:
     - id: nav-desktop-payalto
       title: PAYALTO
-      path: /paymentwall.github.io/payalto-home
+      path: /payalto-home
       subitems:
         - id: nav-desktop-payalto-stored
           title: Stored product
-          path: /paymentwall.github.io/payalto/stored-products
+          path: /payalto/stored-products
           leaves:
             - id: nav-desktop-payalto-stored-dg
               title: Digital Goods
-              path: /paymentwall.github.io/payalto/stored/dg
+              path: /payalto/stored/dg
             - id: nav-desktop-payalto-stored-vc
               title: Virtual Currency
-              path: /paymentwall.github.io/payalto/stored/vc
+              path: /payalto/stored/vc
         - id: nav-desktop-payalto-flexible
           title: Flexible product
-          path: /paymentwall.github.io/payalto/flexible-products
+          path: /payalto/flexible-products
           leaves: 
             - id: nav-desktop-payalto-flexible-onetime
               title: Onetime
-              path: /paymentwall.github.io/payalto/flexible/onetime
+              path: /payalto/flexible/onetime
             - id: nav-desktop-payalto-flexible-subscription
               title: Subscription
-              path: /paymentwall.github.io/payalto/flexible/subscription
+              path: /payalto/flexible/subscription
     - id: nav-desktop-brick
       title: BRICK
-      path: /paymentwall.github.io/brick-home
+      path: /brick-home
       subitems: 
         - id: nav-desktop-brick-create-form
           title: Create form
-          path: /paymentwall.github.io/brick/create-form
+          path: /brick/create-form
         - id: nav-desktop-brick-set-product
           title: Set products
           leaves:
             - id: nav-desktop-brick-set-product-charge
               title: Charge
-              path: /paymentwall.github.io/brick/charge
+              path: /brick/charge
             - id: nav-desktop-brick-set-product-subscription
               title: Subscription
-              path: /paymentwall.github.io/brick/subscription
+              path: /brick/subscription
         - id: nav-desktop-brick-3dsecure
           title: Apply 3D Secure
-          path: /paymentwall.github.io/brick/3dsecure
+          path: /brick/3dsecure
         - id: nav-desktop-brick-error-codes
           title: Error Codes
-          path: /paymentwall.github.io/brick/error-codes
+          path: /brick/error-codes
         - id: nav-desktop-brick-sandbox
           title: Sandbox
-          path: /paymentwall.github.io/brick/sandbox
+          path: /brick/sandbox
     - id: nav-desktop-mobiamo
       title: MOBIAMO
-      path: /paymentwall.github.io/about-mobiamo  
+      path: /about-mobiamo
       subitems:
         - id: nav-desktop-mobiamo-integration
           title: Integration and Activation
-          path: /paymentwall.github.io/mobiamo/mobiamo-integration
+          path: /mobiamo/mobiamo-integration
         - id: nav-desktop-mobiamo-flow
           title: Payment flows
-          path: /paymentwall.github.io/mobiamo/mobiamo-flow
+          path: /mobiamo/mobiamo-flow
     - id: nav-desktop-mint
       title: MINT
-      path: /paymentwall.github.io/mint-home
+      path: /mint-home
     - id: nav-desktop-offerwall
       title: OFFERWALL
-      path: /paymentwall.github.io/offerwall-home
+      path: /offerwall-home
     - id: nav-desktop-invoice
       title: INVOICE
-      path: /paymentwall.github.io/invoice
+      path: /invoice
 - id: nav-mobile
   title: Mobile
   items:
     - id: nav-mobile-sdk
       title: Paymentwall SDK
-      path: /paymentwall.github.io/mobile-sdk
+      path: /mobile-sdk
       subitems:
         - id: nav-mobile-sdk-core
           title: Core
-          path: /paymentwall.github.io/mobile/core
+          path: /mobile/core
         - id: nav-mobile-sdk-plugin
           title: Plugin
-          path: /paymentwall.github.io/mobile/plugin
+          path: /mobile/plugin
 - id: nav-smarttv
   title: Smart TV
   items:
     - id: nav-smarttv-sdk
       title: SmartTV SDK
-      path: /paymentwall.github.io/smarttv-sdk
+      path: /smarttv-sdk
 - id: nav-pingback
   title: Pingbacks
   items:
     - id: nav-pingback-default
       title: Default Pingbacks
-      path: /paymentwall.github.io/default-pingback
+      path: /default-pingback
       subitems:
         - id: nav-pingback-default-dg
           title: Digital Goods
-          path: /paymentwall.github.io/default-pingback-dg
+          path: /default-pingback-dg
         - id: nav-pingback-default-vc
           title: Virtual Currency
-          path: /paymentwall.github.io/default-pingback-vc
+          path: /default-pingback-vc
     - id: nav-pingback-custom-parameters
       title: Custom Parameters
-      path: /paymentwall.github.io/pingback-custom-parameters
+      path: /pingback-custom-parameters
 - id: nav-open-source-plugin
   title: Extensions & Plugins
-  href: /paymentwall.github.io/modules/aMember
+  href: /modules/aMember
 - id: nav-sandbox
   title: Sandbox
   items:
     - id: nav-sandbox-testpayment
       title: Test payment
-      path: /paymentwall.github.io/sandbox/test-payment
+      path: /sandbox/test-payment
     - id: nav-sandbox-test-pingback-tool
       title: Pingback tool
-      path: /paymentwall.github.io/sandbox/pingback-tool
+      path: /sandbox/pingback-tool
     - id: nav-sandbox-reporting
       title: Sandbox Reporting
-      path: /paymentwall.github.io/sandbox/reporting
+      path: /sandbox/reporting
 - id: nav-reference
   title: Reference
   items:
     - id: nav-reference-go_live
       title: Go live
-      path: /paymentwall.github.io/go_live-home
+      path: /go_live-home
       subitems:
         - id: nav-reference-go_live-technical
           title: Technical integration
-          path: /paymentwall.github.io/go_live-technical
+          path: /go_live-technical
         - id: nav-reference-go_live-business
           title: Business
-          path: /paymentwall.github.io/go_live-business
+          path: /go_live-business
     - id: nav-reference-signature-calculation
       title: Signature Calculation
-      path: /paymentwall.github.io/signature-calculation
+      path: /signature-calculation
     - id: nav-reference-spiderpipe
       title: SpiderPipe
-      path: /paymentwall.github.io/spiderpipe-home
+      path: /spiderpipe-home
       subitems: 
         - id: nav-reference-spiderpipe-paypal
           title: PayPal
-          path: /paymentwall.github.io/spiderpipe/paypal
+          path: /spiderpipe/paypal
         - id: nav-reference-spiderpipe-amazon
           title: Amazon
-          path: /paymentwall.github.io/spiderpipe/amazon
+          path: /spiderpipe/amazon
         - id: nav-reference-spiderpipe-bitcoin-bitpay
           title: Bitcoin Bitpay
-          path: /paymentwall.github.io/spiderpipe/bitcoin-bitpay
+          path: /spiderpipe/bitcoin-bitpay
         - id: nav-reference-spiderpipe-bitcoin-coinbase
           title: Bitcoin Coinbase
-          path: /paymentwall.github.io/spiderpipe/bitcoin-coinbase
+          path: /spiderpipe/bitcoin-coinbase
         - id: nav-reference-spiderpipe-alipay
           title: Alipay
-          path: /paymentwall.github.io/spiderpipe/alipay
+          path: /spiderpipe/alipay
         - id: nav-reference-spiderpipe-unionpay
           title: UnionPay
-          path: /paymentwall.github.io/spiderpipe/unionpay
+          path: /spiderpipe/unionpay
     - id: nav-reference-lang
       title: Language codes
-      path: /paymentwall.github.io/lang
+      path: /lang
     - id: nav-reference-ps-codes
       title: Payment system codes
-      path: /paymentwall.github.io/ps-codes
+      path: /ps-codes
     - id: nav-reference-supported_currency
       title: Supported Currency
-      path: /paymentwall.github.io/supported_currency
+      path: /supported_currency

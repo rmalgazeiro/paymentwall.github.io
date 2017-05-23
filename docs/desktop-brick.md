@@ -35,7 +35,7 @@ Brick is a pure credit card payment solution provided by Paymentwall. It allows 
 
 ## Try with Brick
 
-By using Brick test cards in [Sanbox](/paymentwall.github.io/brick/sandbox) or card information below to do a test payment.
+By using Brick test cards in [Sanbox](/brick/sandbox) or card information below to do a test payment.
 
 * Card number: 4242 4242 4242 4242.
 
@@ -49,15 +49,15 @@ Each successful payment has a one-time token to be used in further charge reques
 
 ## Components
 
-* [Create form](/paymentwall.github.io/brick/create-form) to collect payment details and generate one-time token. 
+* [Create form](/brick/create-form) to collect payment details and generate one-time token. 
 
-* Perform request according to your product type, [onetime payment](/paymentwall.github.io/brick/charge) or [subscription](/paymentwall.github.io/brick/subscription).
+* Perform request according to your product type, [onetime payment](/brick/charge) or [subscription](/brick/subscription).
 
 ## Requirements
 
 * Your payment pages must be loaded via **HTTPS**.
 
-* [3D Secure](http://www.mastercard.com/gateway/implementation_guides/3D-Secure.html) (as known as [verified by Visa](https://www.visaeurope.com/making-payments/verified-by-visa/)) should be implemented into your payment system. See how to [apply 3D Secure](/paymentwall.github.io/brick/3dSecure) in Brick.
+* [3D Secure](http://www.mastercard.com/gateway/implementation_guides/3D-Secure.html) (as known as [verified by Visa](https://www.visaeurope.com/making-payments/verified-by-visa/)) should be implemented into your payment system. See how to [apply 3D Secure](/brick/3dSecure) in Brick.
 
 * A Paymentwall project with Digital Goods API enabled.
 
@@ -75,5 +75,5 @@ See [components](#components) for more details.
 
 * Setup Pingback listener
 
-[Pingback](/paymentwall.github.io/default-pingback) is Paymentwall's instant payment notification. Each pingback has a unique reference ID in our system, please store it and proceed delivery according to our pingback.
+[Pingback](/default-pingback) is Paymentwall's instant payment notification. Each pingback has a unique reference ID in our system, please store it and proceed delivery according to our pingback.
 

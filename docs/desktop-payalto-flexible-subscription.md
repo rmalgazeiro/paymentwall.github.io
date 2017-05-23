@@ -11,7 +11,7 @@ You can also setup subscription for your customers while using Flexible product.
 
 ## API Call
 
-The parameter ```ag_type``` should be set as ```subscription``` in API call. See code sample for [subscription](/paymentwall.github.io/API-Reference#section-payalto-flexible-subscription) to perform API Call.
+The parameter ```ag_type``` should be set as ```subscription``` in API call. See code sample for [subscription](/API-Reference#section-payalto-flexible-subscription) to perform API Call.
 
 You can use blow ways to handle the ```widget``` object.
 
@@ -31,7 +31,7 @@ Once the last charge happens Paymentwall will send a pingback with pingback ```t
 
 ## Subscription failure
 
-If a user has insufficient funds or a payment fails for any other reason, Paymentwall will make 2 reattempts (3 attempts in total) to charge the user. [Payment Status API](/paymentwall.github.io/API-Reference#section-tools-payment-status) will report active status of the subscription and ```date_next``` will contain the date of the next attempt.
+If a user has insufficient funds or a payment fails for any other reason, Paymentwall will make 2 reattempts (3 attempts in total) to charge the user. [Payment Status API](/API-Reference#section-tools-payment-status) will report active status of the subscription and ```date_next``` will contain the date of the next attempt.
 
 If all of the attempts fail, Paymentwall will stop the subscription.
 
@@ -41,7 +41,7 @@ For this event Paymentwall will send a pingback with ```type=14```, means subscr
 
 ## Subscription Cancellation
 
-See [cancellation API](/paymentwall.github.io/API-Reference#section-tools-cancellation)to stop subscription for your customers.
+See [cancellation API](/API-Reference#section-tools-cancellation)to stop subscription for your customers.
 
 ## Next Step
 
@@ -49,4 +49,4 @@ After implementing the paylet you need to implement the server side pingback scr
 
 Refer to the link below for Digital Goods API pingbacks:
 
-> **[Pingbacks](/paymentwall.github.io/default-pingback)**
+> **[Pingbacks](/default-pingback)**

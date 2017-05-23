@@ -21,6 +21,6 @@ Plugin SDK provides native UI for local payment methods, which means users will 
 
 **Alipay**, **UnionPay** and **WechatPay** are supported by **SpiderPipe**, which means Paymentwall can help you to manage accounts of these payment options. For information on how to set SpiderPipe accounts, please click links below for details.
 
-* [Alipay](/paymentwall.github.io/spiderpipe/alipay).
+* [Alipay](/spiderpipe/alipay).
 
-* [Union Pay](/paymentwall.github.io/spiderpipe/unionpay).
+* [Union Pay](/spiderpipe/unionpay).

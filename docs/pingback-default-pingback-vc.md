@@ -7,7 +7,7 @@ permalink: default-pingback-vc
 
 # Virtual Currency API Pingback
 
-> Before you start, please read [Pingbacks](/paymentwall.github.io/default-pingback) document first to get overview of Paymentwall Pingback system.
+> Before you start, please read [Pingbacks](/default-pingback) document first to get overview of Paymentwall Pingback system.
 
 ## Sample of Pingback Request for Virtual Currency API
 
@@ -93,7 +93,7 @@ Sample code using [Paymentwall API Libraries](https://github.com/paymentwall) at
 
 # Next Step
 
-Before you submit the project, please test your pingback integration using [Test Pingback Tool](/paymentwall.github.io/sandbox/pingback-tool).
+Before you submit the project, please test your pingback integration using [Test Pingback Tool](/sandbox/pingback-tool).
 
 You should check whether your Pingback listener is :
 - responding "OK" to Paymentwall pingback requests.
@@ -102,4 +102,4 @@ You should check whether your Pingback listener is :
 
 You can then submit your project for review.
 
-> See [project go live](/paymentwall.github.io/go_live-home).
+> See [project go live](/go_live-home).

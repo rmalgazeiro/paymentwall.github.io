@@ -31,7 +31,7 @@ Paymentwall's plug-in for Woocommerce can be downloaded **[here](https://github.
 
   > Remember to  save changes at the bottom of ```Settings``` section.
 
-<img src="/paymentwall.github.io/textures/pic/modules/woocommerce.png">
+<img src="/textures/pic/modules/woocommerce.png">
 
 * You can also enable **Brick** as a payment gateway by and click the brick grey icon on your project overview. It will generate ```Brick Test Keys``` and ```Brick Live Keys``` right next to your ```Widget Keys```.
 
@@ -65,8 +65,8 @@ Paymentwall requires Wordpress  4.0 & WooCommerce 2.1+ or higher and is compatib
 
 You can start to test payments of your projects.
 
-> **[Refer to test payments with test method](/paymentwall.github.io/sandbox/test-payment)**
+> **[Refer to test payments with test method](/sandbox/test-payment)**
 
 Once you make sure everything works smoothly, please submit your project to go live.
 
-> **[See how to live your project](/paymentwall.github.io/go_live-home)**
+> **[See how to live your project](/go_live-home)**

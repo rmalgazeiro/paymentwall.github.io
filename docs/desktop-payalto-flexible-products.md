@@ -7,7 +7,7 @@ permalink: payalto/flexible-products
 
 # Flexible Product
 
-Flexible product means that you are sending your products details through [our API](/paymentwall.github.io/API-Reference#section-payalto-flexible), and not storing it in Paymentwall's side.
+Flexible product means that you are sending your products details through [our API](/API-Reference#section-payalto-flexible), and not storing it in Paymentwall's side.
 
 Here is a sample using Paylet widget.
 
@@ -21,7 +21,7 @@ Here is a sample using Paylet widget.
 
 There will be only one product in our widget while using Flexible product as it doesn't have the products selection step, which means you need to create it by your own in your application. 
 
-Since payment methods selection step can also be defined by using ```ps``` param as [optional parameter](/paymentwall.github.io/API-Reference#section-payalto-optional-parameter), deep-linked payment system is doable for Flexible products.
+Since payment methods selection step can also be defined by using ```ps``` param as [optional parameter](/API-Reference#section-payalto-optional-parameter), deep-linked payment system is doable for Flexible products.
 
 * Use widget
 
@@ -31,7 +31,7 @@ Our widget provides a default payment methods selection step for your customers.
 
 Alternatively, our widget can also show the target payment method directly at the main page while it is requested. 
 
-In this case, you need to create your own payment methods selection step by using our [payment system API](/paymentwall.github.io/API-Reference#section-tools-payment-systems). And embed the ```id``` ( which is ```ps```) from the response of payment system API into the widget call. 
+In this case, you need to create your own payment methods selection step by using our [payment system API](/API-Reference#section-tools-payment-systems). And embed the ```id``` ( which is ```ps```) from the response of payment system API into the widget call. 
 
 
 ## Widget support
@@ -40,11 +40,11 @@ Integration with stored products supports below widgets.
 
 * pw, Paylet widget. The latest published payment widget for better payment experience.
 
-* all the widgets supported in [stored product](/paymentwall.github.io/payalto/stored-products#widget-support). 
+* all the widgets supported in [stored product](/payalto/stored-products#widget-support). 
 
 ## Product type
 
 The required parameters are different between onetime payments and subscription, please choose one according to your product type.
 
-* [Onetime payments](/paymentwall.github.io/payalto/flexible/onetime). Choose it if your product requires an instant payment for total amount.
-* [Subscription](/paymentwall.github.io/payalto/flexible/subscription)
+* [Onetime payments](/payalto/flexible/onetime). Choose it if your product requires an instant payment for total amount.
+* [Subscription](/payalto/flexible/subscription)

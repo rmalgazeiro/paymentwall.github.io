@@ -148,7 +148,7 @@ PWSmartGateway.showPaymentForm(
 );
 ```
 
-It is also possible to use [Stored products](/paymentwall.github.io/paymentwall.github.io/payalto/stored-products) and make a simplified SDK call.
+It is also possible to use [Stored products](/payalto/stored-products) and make a simplified SDK call.
 
 Example:
 ```javascript
@@ -170,7 +170,7 @@ PWSmartGateway.showPaymentForm(
 Once you make the showPaymentForm() call successfully, the expected result is to see the payment form in screen:
 
 <div class="docs-img" style="text-align: center;">
-    <img src="/paymentwall.github.io/textures/pic/smarttv/smarttv-widget.png" style="max-width: 50%">
+    <img src="/textures/pic/smarttv/smarttv-widget.png" style="max-width: 50%">
 </div>
 
 ## Check payment status
@@ -279,10 +279,10 @@ Possible error codes:
 * 1001 - Product is not found. Check the product SKU ID, or provide product name, amount and currency
 
 ## Pingback Processing
-Pingbacks are server-to-server messages that Paymentwall triggers whenever a payment is approved or declined. Implementing pingbacks is required in order to have your project approved. Please refer to [Digital Goods API pingbacks](/paymentwall.github.io/default-pingback) to learn about implementation.
+Pingbacks are server-to-server messages that Paymentwall triggers whenever a payment is approved or declined. Implementing pingbacks is required in order to have your project approved. Please refer to [Digital Goods API pingbacks](/default-pingback) to learn about implementation.
 
 
 ## Going live
 After you finish the integration, you should submit your project for review in your merchant area.
 
-> See project [go live](/paymentwall.github.io/go_live-home).
+> See project [go live](/go_live-home).

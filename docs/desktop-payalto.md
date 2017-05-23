@@ -29,9 +29,9 @@ Check [payment methods](https://www.paymentwall.com/payment-methods) for more de
 
 ## Components
 
-* [Stored product](/paymentwall.github.io/payalto/stored-products).
+* [Stored product](/payalto/stored-products).
 
-* [Flexible product](/paymentwall.github.io/payalto/flexible-products).
+* [Flexible product](/payalto/flexible-products).
 
 ## Requirements
 
@@ -41,10 +41,10 @@ Check [payment methods](https://www.paymentwall.com/payment-methods) for more de
 
 We assume that you have created a Paymentwall project.
 
-* Using our [PayAlto API](/paymentwall.github.io/API-Reference#section-payalto) to call the payment widget. 
+* Using our [PayAlto API](/API-Reference#section-payalto) to call the payment widget. 
 
 * Display our payment widget in your application.
 
 * Setup Pingback listener
 
-[Pingback](/paymentwall.github.io/default-pingback) is Paymentwall's instant payment notification. Each pingback has a unique reference ID in our system, please store it and proceed delivery according to our pingback.
+[Pingback](/default-pingback) is Paymentwall's instant payment notification. Each pingback has a unique reference ID in our system, please store it and proceed delivery according to our pingback.

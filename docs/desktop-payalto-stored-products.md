@@ -20,7 +20,7 @@ Here is a sample using m2 widget.
 
 ## Features
 
-Stored product relies on the products selection page, hence it is not available for deep-linked payment systems. See [Flexible Product](/paymentwall.github.io/payalto/flexible-products) if you want to have a deep-linked payment system for your application.
+Stored product relies on the products selection page, hence it is not available for deep-linked payment systems. See [Flexible Product](/payalto/flexible-products) if you want to have a deep-linked payment system for your application.
 
 By using stored products:
 
@@ -34,16 +34,16 @@ Integration with stored products supports below widgets.
 
 * p1, a unified widget on websites. It has a customized widget, which is p10. 
 
-* p2, similar to p1 but requires an additional parameter ```ps``` as [optional parameter](/paymentwall.github.io/API-Reference#section-payalto-optional-parameter). 
+* p2, similar to p1 but requires an additional parameter ```ps``` as [optional parameter](/API-Reference#section-payalto-optional-parameter). 
 
 * p4, all the payment method requires to be opened in a new window.
 
 * m2, a unified widget with better performance on mobile, also suitable for websites.
 
-* mo, standalone widget for [Mobiamo](/paymentwall.github.io/about-mobiamo).
+* mo, standalone widget for [Mobiamo](/about-mobiamo).
 
 ## Choosing API
 
-* [Digital Goods](/paymentwall.github.io/payalto/stored/dg), used for recurring membership, in-game virtual items, digital content, full version of a game or software, Saas, and one-time payments.
+* [Digital Goods](/payalto/stored/dg), used for recurring membership, in-game virtual items, digital content, full version of a game or software, Saas, and one-time payments.
 
-* [Virtual Currency](/paymentwall.github.io/payalto/stored/vc). Any game or website that has virtual currency economy, for example Gold, Rubies, Gems, Rupees, Emeralds, Credits, Galactic credit standard, etc...
+* [Virtual Currency](/payalto/stored/vc). Any game or website that has virtual currency economy, for example Gold, Rubies, Gems, Rupees, Emeralds, Credits, Galactic credit standard, etc...

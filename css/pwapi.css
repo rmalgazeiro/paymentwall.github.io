@@ -187,37 +187,37 @@ p {
 }
 @font-face {
 	font-family:'Proxima Nova';
-	src:url("/paymentwall.github.io/textures/fonts/proximanova-thin.woff") format("woff"),url("/paymentwall.github.io/textures/fonts/proximanova-thin.woff2") format("woff2");
+	src:url("/textures/fonts/proximanova-thin.woff") format("woff"),url("/textures/fonts/proximanova-thin.woff2") format("woff2");
 	font-weight:100;
 	font-style:normal
 }
 @font-face {
 	font-family:'Proxima Nova';
-	src:url("/paymentwall.github.io/textures/fonts/ProximaNova-Light.woff") format("woff"),url("/paymentwall.github.io/textures/fonts/ProximaNova-Light.woff2") format("woff2");
+	src:url("/textures/fonts/ProximaNova-Light.woff") format("woff"),url("/textures/fonts/ProximaNova-Light.woff2") format("woff2");
 	font-weight:300;
 	font-style:normal
 }
 @font-face {
 	font-family:'Proxima Nova';
-	src:url("/paymentwall.github.io/textures/fonts/ProximaNova-Regular.woff") format("woff"),url("/paymentwall.github.io/textures/fonts/ProximaNova-Regular.woff2") format("woff2");
+	src:url("/textures/fonts/ProximaNova-Regular.woff") format("woff"),url("/textures/fonts/ProximaNova-Regular.woff2") format("woff2");
 	font-weight:400;
 	font-style:normal
 }
 @font-face {
 	font-family:'Proxima Nova';
-	src:url("/paymentwall.github.io/textures/fonts/ProximaNova-Medium.woff") format("woff"),url("/paymentwall.github.io/textures/fonts/ProximaNova-Medium.woff2") format("woff2");
+	src:url("/textures/fonts/ProximaNova-Medium.woff") format("woff"),url("/textures/fonts/ProximaNova-Medium.woff2") format("woff2");
 	font-weight:500;
 	font-style:normal
 }
 @font-face {
 	font-family:'Proxima Nova';
-	src:url("/paymentwall.github.io/textures/fonts/ProximaNova-Bold.woff") format("woff"),url("/paymentwall.github.io/textures/fonts/ProximaNova-Bold.woff2") format("woff2");
+	src:url("/textures/fonts/ProximaNova-Bold.woff") format("woff"),url("/textures/fonts/ProximaNova-Bold.woff2") format("woff2");
 	font-weight:700;
 	font-style:normal
 }
 @font-face {
 	font-family:'Proxima Nova';
-	src:url("/paymentwall.github.io/textures/fonts/ProximaNova-ExtBold.woff") format("woff"),url("/paymentwall.github.io/textures/fonts/ProximaNova-ExtBold.woff2") format("woff2");
+	src:url("/textures/fonts/ProximaNova-ExtBold.woff") format("woff"),url("/textures/fonts/ProximaNova-ExtBold.woff2") format("woff2");
 	font-weight:800;
 	font-style:normal
 }

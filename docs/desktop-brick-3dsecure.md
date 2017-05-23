@@ -9,11 +9,11 @@ permalink: brick/3dsecure
 
 [3d secure](http://www.mastercard.com/gateway/implementation_guides/3D-Secure.html) ([verified by Visa](https://www.visaeurope.com/making-payments/verified-by-visa/)) is an additional payment step to have your customer verified their payments, which is helpful to prevent fraudulent. 
 
-3d secure flow is the same between [charge](/paymentwall.github.io/brick/charge) and [subscription](/paymentwall.github.io/brick/subscription), we are using charge as an example in this tutorial. 
+3d secure flow is the same between [charge](/brick/charge) and [subscription](/brick/subscription), we are using charge as an example in this tutorial. 
 
 ## Enable 3d secure
 
-By passing ```secure=1``` as an additional parameter in your [charge request](/paymentwall.github.io/brick/charge#charge-request), a different charge response includes the 3d secure form which is provided by the card issuing banks of your customers will be returned.
+By passing ```secure=1``` as an additional parameter in your [charge request](/brick/charge#charge-request), a different charge response includes the 3d secure form which is provided by the card issuing banks of your customers will be returned.
 
 > 3d secure might be a required payment step as judged by our payment risk team. 
 
@@ -34,13 +34,13 @@ The implementation is different depending on your payment form.
 
 * Default payment form
 
-If you are using [default payment form](/paymentwall.github.io/brick/create-form#tokenize-payment-details-with-default-form), this part is handled by default payment form itself. See [re-submit charge request](#re-submit-charge-request) to continue.
+If you are using [default payment form](/brick/create-form#tokenize-payment-details-with-default-form), this part is handled by default payment form itself. See [re-submit charge request](#re-submit-charge-request) to continue.
 
 * Custom payment form
 
-For merchants who prefer [custom payment form](/paymentwall.github.io/brick/create-form#tokenize-payment-details-with-your-own-form), the following steps are required:
+For merchants who prefer [custom payment form](/brick/create-form#tokenize-payment-details-with-your-own-form), the following steps are required:
 
-**Add an additional parameter** ```secure_redirect_url``` **into your** [charge request](/paymentwall.github.io/brick/charge#charge-request)
+**Add an additional parameter** ```secure_redirect_url``` **into your** [charge request](/brick/charge#charge-request)
 
 ```secure_redirect_url``` is the url where your customer will be redirected after completing the 3D secure step. 
 
@@ -191,6 +191,6 @@ As these two parameters have been passed to your backend, you can easily use the
 
 That's it. Your payment system now should be able to handle payments with 3d secure enabled, below links might be helpful for you:
 
-> Test your payment system with [Brick sandbox enviroment](/paymentwall.github.io/brick/sandbox).
+> Test your payment system with [Brick sandbox enviroment](/brick/sandbox).
 
 > [Submit your project]() for review to go live your project.

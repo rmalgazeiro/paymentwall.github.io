@@ -41,31 +41,31 @@ Please make sure that your PayPal account matches the following criterias.
 * Click on your **account** icon.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-account.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-account.jpg" style="width: 800px">
 </div>
 
 * Click **Profile and Settings** on the popup menu.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-account-profile.jpg" style="width: 300px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-account-profile.jpg" style="width: 300px">
 </div>
 
 * Select **Selling Tools**.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-profile-selling_tools.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-profile-selling_tools.jpg" style="width: 800px">
 </div>
 
 * Find **Instant Payment Notifications** on the menu and click on **Update**
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-profile-selling_tools-ipn-update.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-profile-selling_tools-ipn-update.jpg" style="width: 800px">
 </div>
 
 * Click **Choose IPN Settings** to specify your listener's URL and activate the listener.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-ipn-settings.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-ipn-settings.jpg" style="width: 800px">
 </div>
 
 * Specify the URL for your listener in the **Notification URL** field and check **Receive IPN messages (Enabled)** to enable your listener.
@@ -75,13 +75,13 @@ https://api.paymentwall.com/api/paymentpingback/paypal
 ```
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-ipn-notification-url.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-ipn-notification-url.jpg" style="width: 800px">
 </div>
 
 * Click **Save** and below screen should appear which shows your current settings:.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-ipn-current-settings.jpg" style="width: 400px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-ipn-current-settings.jpg" style="width: 400px">
 </div>
 
 ## Configure your payment receiving preferences
@@ -89,19 +89,19 @@ https://api.paymentwall.com/api/paymentpingback/paypal
 * Click on the **Profile Settings** tab on your account.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-account-profile.jpg" style="width: 300px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-account-profile.jpg" style="width: 300px">
 </div>
 
 * Select **Selling Tools**. Find **Card Card statement name** in the opened menu and press **Update**.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-profile-selling_tools-cc-statement.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-profile-selling_tools-cc-statement.jpg" style="width: 800px">
 </div>
 
 * In **Payment Receiving Preference** page, check the **Yes, accept them and convert them to...** option under the **Allow payments sent to me in a currency I do not hold** section. Fill in Credit Card Statement Name and Extended Credit Card Statement Name and click Save.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-payment_receiving_preference-extended-cc-name.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-payment_receiving_preference-extended-cc-name.jpg" style="width: 800px">
 </div>
 
 ## Add your PayPal merchant account to Paymentwall
@@ -109,37 +109,37 @@ https://api.paymentwall.com/api/paymentpingback/paypal
 * Log in to your Paymentwall Merchant Account and click **Account Settings** on the menu.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/pw-merchant_area-account-settings.jpg" style="width: 200px">
+	<img src="/textures/pic/reference/spiderpipe/pw-merchant_area-account-settings.jpg" style="width: 200px">
 </div>
 
 * Choose **SpiderPipe Accounts** section under **Settings** and click on **Add Payment Account** button.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="width: 800px">
 </div>
 
 * Select **PayPal** as the payment system.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-select-paypal.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-select-paypal.jpg" style="width: 800px">
 </div>
 
 * Enter your primary email address.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-paypal-primary-email.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-paypal-primary-email.jpg" style="width: 800px">
 </div>
 
 The primary email address could be found at **My Business Information** tab in your PayPal account. You may also change it by clicking **Update**.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-profile-biz_information-email.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-profile-biz_information-email.jpg" style="width: 800px">
 </div>
 
 * Enter your API credentials and signature from your PayPal account.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-paypal-api-details.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-paypal-api-details.jpg" style="width: 800px">
 </div>
 
 Click [here](https://www.paypal.com/cgi-bin/webscr?cmd=_profile-api-signature) to obtain your API credentials. On the opening website, click **Request API Credentials** on the API Access page. 
@@ -153,19 +153,19 @@ Select **Request API signature** and click **Agree and Submit** to generate a se
 * Select **Account Settings** and click on the **Get Started** button under the **Manage Users** tab.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-profile-account_settings-manage-users.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-profile-account_settings-manage-users.jpg" style="width: 800px">
 </div>
 
 * Click **Add User**.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-manage_user-add-user.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-manage_user-add-user.jpg" style="width: 800px">
 </div>
 
 * Fill in the User’s settings, **User’s first and last name** should be set as ```Admin Paymentwall```.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-add_user-user-details.jpg" style="width: 400px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-add_user-user-details.jpg" style="width: 400px">
 </div>
 
 Enter custom **User ID** and **Password** (shared with Paymentwall).
@@ -179,13 +179,13 @@ In **Accounting** section, check **Refunds**, **Cancel Payments** and **Recurrin
 In **Administration** section, check **View Profile**.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-add_user-user-access.jpg" style="width: 400px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-add_user-user-access.jpg" style="width: 400px">
 </div>
 
 * Click on the **Save** button and confirm the sub account created, you should see below screenshot as confirmation.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-manage_user-subaccount.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-manage_user-subaccount.jpg" style="width: 800px">
 </div>
 
 ## Payment data transfer
@@ -195,19 +195,19 @@ In **Administration** section, check **View Profile**.
 * In the **Selling Tools** tab, click on **Update** under the **Website Preferences** option.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-profile-selling_tools-website-preference.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-profile-selling_tools-website-preference.jpg" style="width: 800px">
 </div>
 
 * Set both **Auto Return** and **Payment Data Transfer** (optional) to ON. Save your settings and go back to the **Website Payment Preferences** page.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-website_payment_preference.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-website_payment_preference.jpg" style="width: 800px">
 </div>
 
 * You can see that an **Identity Token** has been created. Paste this on Paymentwall side(Identity token section).
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/paypal-website_payment_preference-identity-token.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/paypal-website_payment_preference-identity-token.jpg" style="width: 800px">
 </div>
 
 ## Next Step

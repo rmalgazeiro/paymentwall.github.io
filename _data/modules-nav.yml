@@ -1,66 +1,66 @@
 - id: modules-amember
   title: aMember
-  path: /paymentwall.github.io/modules/aMember
+  path: /modules/aMember
 - id: modules-blesta
   title: Blesta
-  path: /paymentwall.github.io/modules/Blesta
+  path: /modules/Blesta
 - id: modules-buycraft
   title: Buycraft
-  path: /paymentwall.github.io/modules/Buycraft
+  path: /modules/Buycraft
 - id: modules-cs-cart
   title: CS-Cart
-  path: /paymentwall.github.io/modules/CS-Cart
+  path: /modules/CS-Cart
 - id: modules-easy-digital-downloads
   title: Easy Digital Downloads
-  path: /paymentwall.github.io/modules/EDD
+  path: /modules/EDD
 - id: modules-enjin-donationcraft
   title: Enjin
-  path: /paymentwall.github.io/modules/Enjin
+  path: /modules/Enjin
 - id: modules-ip-board
   title: IP Board
-  path: /paymentwall.github.io/modules/IPBoard
+  path: /modules/IPBoard
 - id: modules-jigoshop-wordpress
   title: Jigoshop Wordpress
-  path: /paymentwall.github.io/modules/Jigoshop
+  path: /modules/Jigoshop
 - id: modules-magento
   title: Magento
-  path: /paymentwall.github.io/modules/Magento
+  path: /modules/Magento
 - id: modules-minecraft-market
   title: Minecraft Market
-  path: /paymentwall.github.io/modules/MinecraftMarket
+  path: /modules/MinecraftMarket
 - id: modules-opencart
   title: OpenCart
-  path: /paymentwall.github.io/modules/OpenCart
+  path: /modules/OpenCart
 - id: modules-phpfox
   title: PHPFox
-  path: /paymentwall.github.io/modules/Phpfox
+  path: /modules/Phpfox
 - id: modules-prestashop
   title: PrestaShop
-  path: /paymentwall.github.io/modules/PrestaShop
+  path: /modules/PrestaShop
 - id: modules-shopify
   title: Shopify
-  path: /paymentwall.github.io/modules/Shopify
+  path: /modules/Shopify
 - id: modules-shopware
   title: Shopware
-  path: /paymentwall.github.io/modules/Shopware
+  path: /modules/Shopware
 - id: modules-ubercart
   title: Ubercart
-  path: /paymentwall.github.io/modules/Ubercart
+  path: /modules/Ubercart
 - id: modules-vbulletin
   title: vBulletin
-  path: /paymentwall.github.io/modules/vBulletin
+  path: /modules/vBulletin
 - id: modules-whmcs
   title: WHMCS
-  path: /paymentwall.github.io/modules/WHMCS
+  path: /modules/WHMCS
 - id: modules-woocommerce
   title: Woocommerce
-  path: /paymentwall.github.io/modules/Woocommerce
+  path: /modules/Woocommerce
 - id: modules-xenforo
   title: XenForo
-  path: /paymentwall.github.io/modules/XenForo
+  path: /modules/XenForo
 - id: modules-Xero
   title: Xero
-  path: /paymentwall.github.io/modules/Xero
+  path: /modules/Xero
 - id: modules-zen-cart
   title: Zen Cart
-  path: /paymentwall.github.io/modules/Zencart
+  path: /modules/Zencart

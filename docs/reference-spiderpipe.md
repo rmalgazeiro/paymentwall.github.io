@@ -12,7 +12,7 @@ SpiderPipe is a payment gateway that links other global merchant accounts to Pay
 ## SpiderPipe account type
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/pw-spiderpipe-account-type.png" style="width: 600px">
+	<img src="/textures/pic/reference/spiderpipe/pw-spiderpipe-account-type.png" style="width: 600px">
 </div>
 
 For **Spiderpipe Basic**, all Risk and Dispute management will be handled by yourselves as well as the customer service.
@@ -34,10 +34,10 @@ Paymentwall is in charge of any disputes submitted by the user through PayPal by
 
 SpiderPipe has a simple and quick integration, you can easily manage all payment options by using it.
 
-* [Paypal](/paymentwall.github.io/spiderpipe/paypal)
+* [Paypal](/spiderpipe/paypal)
 
-* [Amazon](/paymentwall.github.io/spiderpipe/amazon)
+* [Amazon](/spiderpipe/amazon)
 
-* [Bitcoin via Coinbase](/paymentwall.github.io/spiderpipe/bitcon-coinbase)
+* [Bitcoin via Coinbase](/spiderpipe/bitcon-coinbase)
 
-* [Bitcoin via Bitpay](/paymentwall.github.io/spiderpipe/bitcon-bitpay)
+* [Bitcoin via Bitpay](/spiderpipe/bitcon-bitpay)

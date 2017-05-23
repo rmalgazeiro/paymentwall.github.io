@@ -30,25 +30,25 @@ Info url: https://api.paymentwall.com/api/paymentpingback/coinbase
 Also uncheck **Allow the user to start a new payment after payment success or failure**.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/bitcoin-coinbase-merchants-api-settings.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/bitcoin-coinbase-merchants-api-settings.jpg" style="width: 800px">
 </div>
 
 * Under **Settings** page, find [API tab](https://www.coinbase.com/settings/api).
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/bitcoin-coinbase-settings-generate-apikey.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/bitcoin-coinbase-settings-generate-apikey.jpg" style="width: 800px">
 </div>
 
 * Generate a new API key with full permission for BTC wallet.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/bitcoin-coinbase-settings-api-key.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/bitcoin-coinbase-settings-api-key.jpg" style="width: 800px">
 </div>
 
 You will see the permission like this.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/bitcoin-coinbase-settings-api-permission.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/bitcoin-coinbase-settings-api-permission.jpg" style="width: 800px">
 </div>
 
 > We highly recommend to set up instant exchange of bitcoin orders to USD and credit them to your primary bank account once a day. You must link and verify a bank account before enabling this feature. You can then use Paymentwall reporting system to monitor your revenue.
@@ -62,17 +62,17 @@ CANCELSAVE
 * Find **SpiderPipe Accounts** and click **Add Payment account** button.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="width: 800px">
 </div>
 
 * Select **Coinbase** and filling the fields.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-select-coinbase.png" style="width: 800px">
+	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-select-coinbase.png" style="width: 800px">
 </div>
 
 ## Next step
 
 The setup for Bitcoin via Coinbase is finished, you may check below links.
 
-> [Bitcoin via Bitpay](/paymentwall.github.io/spiderpipe/bitcoin-bitpay).
+> [Bitcoin via Bitpay](/spiderpipe/bitcoin-bitpay).

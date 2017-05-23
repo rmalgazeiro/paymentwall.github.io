@@ -17,6 +17,6 @@ To activate it please email us at [devsupport@paymentwall.com](mailto:devsupport
 |uid<br>**string**| ID of end-users in your system|
 |ag_external_id<br>**string**| Can be obtained from parameter ```goodsid``` in pingback request. |
 |sign_version<br>*required*<br>**integer**| Signature version<br>Version 2 employs MD5 and version 3 uses SHA256.|
-|sign<br>*required*<br>**string**| The request signature.<br>Refer to [Signature Calculation](/paymentwall.github.io/signature-calculation) for more details|
+|sign<br>*required*<br>**string**| The request signature.<br>Refer to [Signature Calculation](/signature-calculation) for more details|
 
 Parameter ```ref``` is not required if you have submitted ```uid``` and ```ag_external_id```.

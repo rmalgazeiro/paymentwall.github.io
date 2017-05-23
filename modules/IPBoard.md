@@ -36,7 +36,7 @@ Paymentwall's plug-in for IP.Board can be downloaded **[here](https://github.com
 
   > Remember to save changes at the bottom of ```Settings``` section.
 
-<img src="/paymentwall.github.io/textures/pic/modules/ipboard.png">
+<img src="/textures/pic/modules/ipboard.png">
 
 * In ```Widgets``` section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on IP.Board admin panel.
 
@@ -68,8 +68,8 @@ Paymentwall provides supports for bellow IP.Board versions.
 
 You can start to test payments of your projects.
 
-> **[Refer to test payments with test method](/paymentwall.github.io/sandbox/test-payment)**
+> **[Refer to test payments with test method](/sandbox/test-payment)**
 
 Once you make sure everything works smoothly, please submit your project to go live.
 
-> **[See how to live your project](/paymentwall.github.io/go_live-home)**
+> **[See how to live your project](/go_live-home)**

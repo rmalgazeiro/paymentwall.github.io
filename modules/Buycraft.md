@@ -50,8 +50,8 @@ Paymentwall provide supports for all up-to-date Buycraft version.
 
 You can start to test payments of your projects.
 
-> **[Refer to test payments with test method](/paymentwall.github.io/sandbox/test-payment)**
+> **[Refer to test payments with test method](/sandbox/test-payment)**
 
 Once you make sure everything works smoothly, please submit your project to go live.
 
-> **[See how to live your project](/paymentwall.github.io/go_live-home)**
+> **[See how to live your project](/go_live-home)**

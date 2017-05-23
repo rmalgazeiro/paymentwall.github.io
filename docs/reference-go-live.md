@@ -7,12 +7,12 @@ permalink: go_live-home
 
 # Project go live
 
-Your project is always in sandbox environment when its status is not live, where only [test payment](/paymentwall.github.io/sandbox/test-payment) is allowed to be used.
+Your project is always in sandbox environment when its status is not live, where only [test payment](/sandbox/test-payment) is allowed to be used.
 
 You can submit your project for review by clicking **SUBMIT FOR REVIEW** button.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/golive/golive-submit-for-review.png" style="max-width: 30%">
+	<img src="/textures/pic/reference/golive/golive-submit-for-review.png" style="max-width: 30%">
 </div>
 
 ## Adjustment before going live
@@ -23,9 +23,9 @@ Paymentwall team will take a whole review of your project and set your project s
 
 It mostly depends on the product you are using.
 
-[PayAlto](/paymentwall.github.io/payalto-home) uses same API credentials in both sandbox and live environment.
+[PayAlto](/payalto-home) uses same API credentials in both sandbox and live environment.
 
-For merchants who are using [Brick](/paymentwall.github.io/brick-home), you will need to replace your brick test credentials to the live one.
+For merchants who are using [Brick](/brick-home), you will need to replace your brick test credentials to the live one.
 
 * Disable test payment method
 
@@ -37,8 +37,8 @@ We recommend you to create another project under your Paymentwall account as sta
 
 A checklist form will be opened and asking you to confirm that you have completed associated operations once you submit your project for review.
 
-* [Integration checklist](/paymentwall.github.io/go_live-integration).
+* [Integration checklist](/go_live-integration).
 
-* [Business checklist](/paymentwall.github.io/go_live-compliance).
+* [Business checklist](/go_live-compliance).
 
 

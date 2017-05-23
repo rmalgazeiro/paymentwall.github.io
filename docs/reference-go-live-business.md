@@ -10,7 +10,7 @@ permalink: go_live-business
 You will see business part on the right side. Check all the checkbox to make sure you have completed the basic business requirement before going live.
 
 <div class="docs-img" style="text-align: center;">
-	<img src="/paymentwall.github.io/textures/pic/reference/golive/golive-business-checklist.png" style="width: 30%">
+	<img src="/textures/pic/reference/golive/golive-business-checklist.png" style="width: 30%">
 </div>
 
 ## Website standards
@@ -41,4 +41,4 @@ If you have questions on any of the standards above, feel free to contact us at 
 
 You should also have the approval from our integration team to go live your project.
 
-> See [checklist of integration team](/paymentwall.github.io/go_live-integration).
+> See [checklist of integration team](/go_live-integration).

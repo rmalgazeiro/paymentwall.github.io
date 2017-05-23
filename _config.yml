@@ -1,8 +1,6 @@
 ---
 name: Paymentwall
 
-baseurl: /paymentwall.github.io
-
 highlighter: rouge
 
 timezone: America/Los_Angeles

@@ -7,11 +7,11 @@ permalink: brick/charge
 
 # Charge
 
-With [one-time token](/paymentwall.github.io/brick/create-form) and [fingerprint](/paymentwall.github.io/brick/create-form) which are collected by Brick.js, you can then easily charge credit cards by using Charge API on your server side. 
+With [one-time token](/brick/create-form) and [fingerprint](/brick/create-form) which are collected by Brick.js, you can then easily charge credit cards by using Charge API on your server side. 
 
 ## Charge request
 
-In charge request, you can define the price and currency of your product. See [charge API](/paymentwall.github.io/API-Reference#section-brick-charge) for the format of each parameter.
+In charge request, you can define the price and currency of your product. See [charge API](/API-Reference#section-brick-charge) for the format of each parameter.
 
 {% assign codeId = "desktop-brick-charge-request" %}
 <div class="docs-code" id="{{ codeId }}">
@@ -67,7 +67,7 @@ In charge request, you can define the price and currency of your product. See [c
 
 ## Charge response object
 
-Once a charge request is successfully performed, you will get a charge response object which contains the payment information to help you verify your end users. See [attributes](/paymentwall.github.io/API-Reference#section-brick-charge-object) for more details.
+Once a charge request is successfully performed, you will get a charge response object which contains the payment information to help you verify your end users. See [attributes](/API-Reference#section-brick-charge-object) for more details.
 
 Each charge has its own id which could be used for authorizing and capturing actions later.
 
@@ -116,7 +116,7 @@ Our risk team will help you to review the payment which is suspicious, it is pos
   </div>
 </div>
 
-Paymentwall instant payment notification, [pingback](/paymentwall.github.io/default-pingback), will be sent immediately once a charge request is achieved. Your delivery should be performed according to the [type](/paymentwall.github.io/default-pingback#pingback-type) of our pingback. You may also define your own parameter as additional parameters in [charge request](#charge-request) which can be set as [custom pingback parameters](/paymentwall.github.io/pingback-custom-parameters) for transparent transmission in charge request.
+Paymentwall instant payment notification, [pingback](/default-pingback), will be sent immediately once a charge request is achieved. Your delivery should be performed according to the [type](/default-pingback#pingback-type) of our pingback. You may also define your own parameter as additional parameters in [charge request](#charge-request) which can be set as [custom pingback parameters](/pingback-custom-parameters) for transparent transmission in charge request.
 
 
 ## Storing a card after charge
@@ -289,4 +289,4 @@ At the same time, you can also void the funds if you don't want to capture it.
 
 You are almost done! Your payment system now can handle the payments which don't have 3D secure enabled. In order to make your payment system  support 3D secure payments,
 
-> See how to [apply 3d secure](/paymentwall.github.io/brick/3dsecure).
+> See how to [apply 3d secure](/brick/3dsecure).
