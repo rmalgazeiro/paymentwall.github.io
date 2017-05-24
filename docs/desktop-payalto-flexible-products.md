@@ -12,7 +12,7 @@ Flexible product means that you are sending your products details through [our A
 Here is a sample using Paylet widget.
 
 <div class="docs-iframe" style="text-align: center;">
-	<iframe src="https://api.paymentwall.com/api/subscription/?key=cd36b8635c7296dad972a239142c4b84&uid=user40012&widget=pw_1&amount=0.99&currencyCode=USD&ag_name=Gold+Membership&ag_type=fixed&ag_external_id=pw_t_2017051900001&sign_version=2&sign=0802bcbf5754b056458d4036fca74d24" width="60%" height="500px"></iframe>
+	<iframe src="https://api.paymentwall.com/api/subscription/?key=cd36b8635c7296dad972a239142c4b84&uid=user40012&widget=pw_1&amount=0.99&currencyCode=USD&ag_name=Gold+Membership&ag_type=fixed&ag_external_id=pw_t_2017051900001&sign_version=2&sign=0802bcbf5754b056458d4036fca74d24"></iframe>
 </div>
 
 > Make sure your project is configured as **Digital Goods API** in order to use flexible product.

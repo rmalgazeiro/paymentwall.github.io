@@ -14,7 +14,7 @@ You can set different settings for each product/price point like specific region
 Here is a sample using m2 widget.
 
 <div class="docs-iframe" style="text-align: center;">
-	<iframe src="https://api.paymentwall.com/api/subscription/?key=048c51f8fc834a1467db96b683f16e70&uid=testuser&widget=m2" width="80%" height="350px">
+	<iframe src="https://api.paymentwall.com/api/subscription/?key=048c51f8fc834a1467db96b683f16e70&uid=testuser&widget=m2">
 	</iframe>
 </div>
 

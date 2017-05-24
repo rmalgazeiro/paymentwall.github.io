@@ -907,7 +907,7 @@ to {
     .maincontent {
         position: absolute;
         width: 100%;
-        margin:0;
+        margin:52px 0 0 0;
     }
 }
 
@@ -917,6 +917,12 @@ to {
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .doc-content {
+        padding: 10px 5%;
+    }
 }
 
 .doc-content ul {
@@ -1051,19 +1057,27 @@ to {
     padding: 0 10px;
 }
 
-
-@media only screen and (max-width: 768px) {
-    .maincontent {
-        margin-top: 52px;
-    }
-}
-
 .docs-img {
     text-align: center;
 }
 
 .docs-img img {
     max-width: 100%;
+}
+
+.docs-iframe {
+    text-align: center;
+}
+
+.docs-iframe iframe{
+    width: 60%;
+    height:500px;
+}
+
+@media only screen and (max-width: 768px) {
+    .docs-iframe iframe{
+        width: 100%;
+    }
 }
 
 /*preloader CSS*/
