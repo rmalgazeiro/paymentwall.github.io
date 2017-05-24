@@ -27,20 +27,20 @@ Initialization constructor takes a JSON object as parameter:
 PWSmartGateway.init(details);
 ```
 
-| Parameter | Required | Possible values | Description |
-| --- | --- | --- | --- |
-| details | Yes | JSON object| JSON object for configuring the SDK |
+| Parameter | Description |
+| :--- | :--- |
+| details <br> *required* <br> **JSON object**| JSON object for configuring the SDK |
 
 Detailed JSON object parameters:
 
-| Parameter | Required | Possible values | Description |
-| --- | --- | --- | --- |
-| key | Yes | hexadecimal, 32 characters long | Your Project Key (for live payments) or Brick Test Keys (for tests and development) |
-| countryCode | No | ISO 3166-1 alpha-2 code of the country |Country code in ISO alpha-2 format (e.g. "KR" or "JP") |
-| containerId | No | string | ID of the DOM element to append Smart TV form to specific place in the app (e.g. id of the div element) |
-| lang | No | ISO 639-1 | ISO 2 Letter code of the language to localize the payment form. (e.g. "KO" or "JA") |
-| gaWebPropertyId | No | string | Web property ID listed in the management interface within Google Analytics (only if you use it) |
-| brand | no | lgtv, samsung, toshiba, philips, panasonic | You can use this parameter to specify a special landing page for payments depending on customer's TV set brand |
+| Parameter | Description |
+| :--- | :--- |
+| key <br> *required* <br> **string** | Your Project Key (for live payments) or Brick Test Keys (for tests and development) |
+| countryCode <br> **string**| ISO 3166-1 alpha-2 code of the country (e.g. "KR" or "JP") |
+| containerId <br> **string** | ID of the DOM element to append Smart TV form to specific place in the app (e.g. id of the div element) |
+| lang <br> **string**| ISO 639-1, 2 Letter code of the language to localize the payment form. (e.g. "KO" or "JA") |
+| gaWebPropertyId <br> **string** | Web property ID listed in the management interface within Google Analytics (only if you use it) |
+| brand <br> **string**|  You can use this parameter to specify a special landing page for payments depending on customer's TV set brand. (eg, lgtv, samsung, toshiba, philips, panasonic.)|
 
 Example:
 ```javascript
@@ -65,7 +65,7 @@ window.PWSmartGatewayOnLoadedCallback = function() {
         countryCode: 'US',
         containerId: 'my-div',
         lang: 'en',
-        gaWebPropertyId: 'UA-XXXX-Y'
+        gaWebPropertyId: 'UA-XXXX-Y',
         brand: 'lgtv'
     });
 };
@@ -79,27 +79,27 @@ After initializing the SDK, use the method *showPaymentForm()* below to show the
 PWSmartGateway.showPaymentForm(value, function() { ... }, function() { ... });
 ```
 
-| Parameter | Required | Possible values | Description |
-| --- | --- | --- | --- |
-| value | Yes | JSON object | JSON object with transaction details (see details below) |
-| function() { } | No | function body | Transaction successful callback function. Deliver goods for customer in this function |
-| function() { } | No | function body | Transaction failed callback function. Show error message. |
+| Parameter | Description |
+| --- | --- | 
+| value <br> *required* <br> **JSON object** | JSON object with transaction details (see details below) |
+| function() { } <br> **function body** | Transaction successful callback function. Deliver goods for customer in this function |
+| function() { } <br> **JSON object** | Transaction failed callback function. Show error message. |
 
 Values of JSON object parameters:
 
-| Parameter | Required | Possible values | Description |
-| --- | --- | --- | --- |
-| productId | Yes | alphanumeric, up to 256 characters long | Alphanumeric ID of the product in your system |
-| productName | No | alphanumeric, up to 256 characters long | Product name |
-| currency | No | ISO 4217 | Currency of the purchase, e.g. USD, EUR |
-| amount | No | numeric, with "." as decimal delimiter | Amount of the purchase, e.g. 10.00 |
-| period | Yes if subscription | "day" / "week" / "month" / "year" | Type of product period. |
-| duration | Yes if subscription | numeric | Length of product period, e.g. 3. |
-| userID | No | alphanumeric, up to 64 characters long | ID of the end-user in your system who is viewing the widget. Examples: numeric ID, username or email. (By default SDK uses device ID) |
-| onExit | No | function() | Optional callback on user exiting the payment window, e.g. after a successful payment |
-| showBackButton | No | boolean | Show 'Back' button on payment form. | 
-| enablePaymentRecoverFlow | No | boolean | Enable 'Recover My Payment' flow. |
-| titles | No | JSON | Custom headings: {'buyHeading': 'Subscribe to #product', 'buyHeadingRecurring': '#price per #period'} |
+| Parameter | Description |
+| --- | --- | 
+| productId <br> *required* <br> **string**| Up to 256 characters long. Alphanumeric ID of the product in your system |
+| productName <br> **string** | alphanumeric, up to 256 characters long. Product name |
+| currency <br> **string** | ISO 4217, Currency of the purchase, e.g. USD, EUR |
+| amount <br> **float** | numeric, with "." as decimal delimiter. Amount of the purchase, e.g. 10.00 |
+| period <br> *required if subscription* <br> **string** | "day" / "week" / "month" / "year". Type of product period. |
+| duration <br> *required if subscription* <br> **string**  | Length of product period, e.g. 3. |
+| userID <br> **string** | Alphanumeric, up to 64 characters long. ID of the end-user in your system who is viewing the widget. Examples: numeric ID, username or email. (By default SDK uses device ID) |
+| onExit <br> **function** | Optional callback on user exiting the payment window, e.g. after a successful payment |
+| showBackButton <br> **boolean**  | Show 'Back' button on payment form. | 
+| enablePaymentRecoverFlow <br> **boolean** | Enable 'Recover My Payment' flow. |
+| titles <br> **JSON object** | Custom headings: {'buyHeading': 'Subscribe to #product', 'buyHeadingRecurring': '#price per #period'} |
 
 Example:
 ```javascript
@@ -169,7 +169,7 @@ PWSmartGateway.showPaymentForm(
 
 Once you make the showPaymentForm() call successfully, the expected result is to see the payment form in screen:
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
     <img src="/textures/pic/smarttv/smarttv-widget.png" style="max-width: 50%">
 </div>
 
@@ -181,18 +181,18 @@ If you would like to first check if the product has already been purchased, you 
 PWSmartGateway.checkPaymentStatus(value, function() { ... }, function() { ... });
 ```
 
-| Parameter | Required | Possible values | Description |
-| --- | --- | --- | --- |
-| value | Yes | JSON object | JSON object with transaction details (see details below) |
-| function() { ... } | No | function | Success callback function |
-| function() { ... } | No | function | Error callback function |
+| Parameter | Description |
+| --- | --- | 
+| value <br> *required* <br> **JSON object**| JSON object with transaction details (see details below) |
+| function() <br> **function** | Success callback function |
+| function() <br> **function** | Error callback function |
 
 JSON object parameters:
 
-| Parameter | Required | Possible values | Description |
-| --- | --- | --- | --- |
-| productId | Yes | alphanumeric, up to 256 characters long | Alphanumeric ID of the product |
-| userID | Yes | alphanumeric, up to 64 characters long | ID of the end-user in your system who is viewing the widget. Examples: numeric ID, username or email |
+| Parameter | Description |
+| --- | --- | 
+| productId <br> *required* <br> **string** | alphanumeric, up to 256 characters long. Alphanumeric ID of the product |
+| userID <br> *required* <br> **string** | alphanumeric, up to 64 characters long. ID of the end-user in your system who is viewing the widget. Examples: numeric ID, username or email |
 
 If a payment is found using the provided parameters, the success callback receives an array containing JSON objects for each payment found. Please refer [here](https://www.paymentwall.com/en/documentation/Payment-Status-API/3019) for more details about the response JSON objects. If no payment is found, error callback is triggered.
 
@@ -233,18 +233,18 @@ To cancel a user's subscription, you can show the cancellation form to the end-u
 ```javascript
 PWSmartGateway.showCancelSubscriptionForm(value, function() { ... }, function() { ... });
 ```
-| Parameter | Required | Possible values | Description |
-| --- | --- | --- | --- |
-| value | Yes | JSON object | JSON object with subscription's details (see details below) |
-| function() { ... } | No | function body | Success callback function |
-| function() { ... } | No | function body | Error callback function |
+| Parameter | Description |
+| --- | --- | 
+| value <br> *required* <br> **JSON object** | JSON object with subscription's details (see details below) |
+| function() <br> **function** | Success callback function |
+| function() <br> **function** | Error callback function |
 
 JSON object parameters:
 
-| Parameter | Required | Possible values | Description |
-| --- | --- | --- | --- |
-| productId | Yes | alphanumeric, up to 256 characters long | Alphanumeric ID of the product |
-| userID | Yes | alphanumeric, up to 64 characters long | ID of the end-user in your system who is viewing the widget. Examples: numeric ID, username or email |
+| Parameter | Description |
+| --- | --- | 
+| productId  <br> *required* <br> **string** | alphanumeric, up to 256 characters long | Alphanumeric ID of the product |
+| userID  <br> *required* <br> **string** | alphanumeric, up to 64 characters long | ID of the end-user in your system who is viewing the widget. Examples: numeric ID, username or email |
 
 
 Example:
@@ -266,11 +266,11 @@ PWSmartGateway.showCancelSubscriptionForm(
 ## Error handling
 
 Third parameter of ```PWSmartGateway.showPaymentForm``` is failure callback. It accepts error object of the following format:
-```javascript
+```json
 {
-  type:"error",
-  code:1001, 
-  message:"Product is not found"
+  "type":"error",
+  "code":1001, 
+  "message":"Product is not found"
 }
 ```
 

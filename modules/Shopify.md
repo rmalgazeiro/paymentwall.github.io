@@ -28,7 +28,9 @@ To connect Paymentwall with your Shopify store simply follow the 2 easy steps be
 
   > Remember to save changes at the bottom of ```Settings``` section.
 
-<img src="/textures/pic/modules/shopify.png">
+<div class="docs-img">
+    <img src="/textures/pic/modules/shopify.png">
+</div>
 
 * In ```Widgets``` section, create a widget that you prefer. And save changes.
 

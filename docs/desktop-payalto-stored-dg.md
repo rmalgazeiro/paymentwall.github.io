@@ -11,13 +11,13 @@ Recurring membership, in-game virtual items, digital content, full version of a 
 
 Please make sure your project is configured as **Digital Goods API** in order to use this feature.
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
     <img src="/textures/pic/payalto/pw_project_products.png" style="width: 50%"> 
 </div>
 
 You can set different settings for each product like specific regions you want that product to be sold (useful for localizing), one time payment or recurring subscription, price, and discount.
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
     <img src="/textures/pic/payalto/pw_project_product_screen.png" style="width: 50%">
 </div>
 

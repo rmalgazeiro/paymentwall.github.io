@@ -9,7 +9,7 @@ permalink: go_live-technical
 
 You will see technical integration part on the left side. Check all the checkbox to make sure you have completed the basic integration of our products. 
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
 	<img src="/textures/pic/reference/golive/golive-technical-checklist.png" style="width: 30%">
 </div>
 

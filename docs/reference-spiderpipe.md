@@ -11,7 +11,7 @@ SpiderPipe is a payment gateway that links other global merchant accounts to Pay
 
 ## SpiderPipe account type
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
 	<img src="/textures/pic/reference/spiderpipe/pw-spiderpipe-account-type.png" style="width: 600px">
 </div>
 

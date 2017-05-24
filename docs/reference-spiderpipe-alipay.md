@@ -31,7 +31,7 @@ In order to set up an Alipay business account, please see [setup flow](https://o
 https://api.paymentwall.com/api/paymentpingback/alipay
 ```
 
-<div class="docs-img" style="text-align:center">
+<div class="docs-img">
 	<img src="/textures/pic/reference/spiderpipe/alipay-merchant_info-set-ipn.jpg" style="max-width:80%">
 </div>
 
@@ -40,31 +40,31 @@ https://api.paymentwall.com/api/paymentpingback/alipay
 
 * Login to Paymentwall Merchant Area, go to **My Accounts**, **Account Settings**.
 
-<div class="docs-img" style="text-align:center">
+<div class="docs-img">
 	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-add-spiderpipe-account.jpg" style="max-width:80%">
 </div>
 
 * Click **Add Payment Account** and choose **Alipay** from the list.
 
-<div class="docs-img" style="text-align:center">
+<div class="docs-img">
 	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-select-alipay.jpg" style="max-width:80%">
 </div>
 
 * Find your Paterner ID on Alipay developer page.
 
-<div class="docs-img" style="text-align:center">
+<div class="docs-img">
 	<img src="/textures/pic/reference/spiderpipe/alipay-merchant_info-partner-id.jpg" style="max-width:30%">
 </div>
 
 * Gnerate Public Key and Private Key.
 
-<div class="docs-img" style="text-align:center">
+<div class="docs-img">
 	<img src="/textures/pic/reference/spiderpipe/alipay-merchant_info-keys.jpg" style="max-width:30%">
 </div>
 
 * Fill in the form and save.
 
-<div class="docs-img" style="text-align:center">
+<div class="docs-img">
 	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-alipay-form.png" style="max-width:30%">
 </div>
 

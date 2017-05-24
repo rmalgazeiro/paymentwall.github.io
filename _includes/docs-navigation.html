@@ -1,5 +1,4 @@
 <div class="sidebar-holder">
-    <!-- API Nav-->
     <div id="docs-nav">
         {% for section in site.data.docs-nav %}
         <div class="section-sidebar" id="{{ section.title }}">
@@ -51,5 +50,8 @@
             {% endif %}
         </div>
         {% endfor %}
+        <div class="section-sidebar" id="section-icon">
+            <a href="javascript:void(0);" style="font-size: 15px; color: #000;" class="icon">&#9776;</a>
+        </div>
     </div>
 </div>

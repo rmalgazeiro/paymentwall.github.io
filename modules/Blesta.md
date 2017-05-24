@@ -37,7 +37,9 @@ Paymentwall's plug-in for Blesta can be downloaded **[here](https://github.com/p
 
   > Remember to save changes at the bottom of ```Settings``` section.
 
-<img src="/textures/pic/modules/blesta.png">
+<div class="docs-img">
+    <img src="/textures/pic/modules/blesta.png">
+</div>
 
 * In ```Widgets``` section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on Blesta admin panel.
 

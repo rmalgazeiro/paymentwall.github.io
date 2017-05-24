@@ -36,15 +36,15 @@ By default, none of them is added into core SDK, please choose the options you w
 | Parameter | Description|
 | :---|:---|
 | amount<br> *required* <br> **Double**| Your product price. Default region 0.5 USD to 500 USD or equivalent currency. 2 decimal places is expected. |
-| currency<br>*required*<br>**string**| Currency code of your product. Format by [ISO 4217](/supported_currency). 3 letters. |
+| currency<br> *required* <br> **string**| Currency code of your product. Format by [ISO 4217](/supported_currency). 3 letters. |
 | itemName <br> *required* <br> **string**| Your product name. The maximum length is 256.|
 | itemId <br> *required* <br> **string** | ID of your product. Order reference ID could also be set here. We will communicate back to you via the pingback as goodsid parameter. The maximum length is 256. |
 | itemImage <br> *recommend* <br> **string** | The path of where your product image is placed in. There would be a blank icon if ```itemImage``` is not configured.|
-| userId <br>*required*<br>**string**| ID of the end-user in your system. The maximum length is 64. |
+| userId <br> *required* <br> **string**| ID of the end-user in your system. The maximum length is 64. |
 | nativeDialog <br> *required* <br> **bollean** | If you want to use native payment result dialog provided by core SDK, set to ```false``` if you want to define your own.|
 | Timeout <br> *required* <br> **Integer** | The max duration of request, in milliseconds.|
-| sign_version<br>*required*<br>**string**| The signature version. Version 2 uses MD5 and version 3 represents SHA256.|
-| sign<br>*required*<br>**string lowercase**| The signature of widget. Refer to [signature calculation](/signature-calculation) for more details.|
+| sign_version<br> *required* <br> **string**| The signature version. Version 2 uses MD5 and version 3 represents SHA256.|
+| sign<br> *required* <br> **string lowercase**| The signature of widget. Refer to [signature calculation](/signature-calculation) for more details.|
 
 
 ## Next Step

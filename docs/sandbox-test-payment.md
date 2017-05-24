@@ -11,7 +11,7 @@ Test Payment method allows merchants to check how the payment process works from
 
 You can find this method in Payment Systems tab of your your Project. By default it is deactivated, in order to activate it, please click the On/Off switch. Also, please activate the countries where you would like to test it using the Countries button.
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
 	<img src="/textures/pic/sandbox/test-payment-method.png">
 </div>
 
@@ -35,7 +35,7 @@ If you're using Paymentwall Uni widget (single payment option), you also need to
 
 This is how Test Payment method is visible in the widget:
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
 	<img src="/textures/pic/sandbox/test-payment-method-widget.png">
 </div>
 
@@ -43,7 +43,7 @@ Upon clicking the Buy button, a Thank You page is displayed to the user. An exam
 
 * Thank you page
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
 	<img src="/textures/pic/sandbox/test-payment-method-thankyou.png">
 </div>
 

@@ -11,7 +11,7 @@ sectionid: docs
 
 * If you integrate **[Virtual Currency API](/payalto/stored-vc)**, Mobiamo will immediately appear as a payment option on the **Widget** upon being activated.
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
 	<img src="/textures/pic/mobiamo/mobiamovc.png">
 </div>
 
@@ -25,7 +25,7 @@ sectionid: docs
 
 On the merchant account, simply go to ```My Projects``` > ```Payment Systems``` to turn on Mobiamo.
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
 	<img src="/textures/pic/mobiamo/mobiamo.png">
 </div>
 

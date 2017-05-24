@@ -1,6 +1,6 @@
 ---
 id: go_live
-title: Go Live Integration Checklist
+title: Go Live
 sectionid: docs
 permalink: go_live-home
 ---
@@ -11,7 +11,7 @@ Your project is always in sandbox environment when its status is not live, where
 
 You can submit your project for review by clicking **SUBMIT FOR REVIEW** button.
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
 	<img src="/textures/pic/reference/golive/golive-submit-for-review.png" style="max-width: 30%">
 </div>
 

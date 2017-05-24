@@ -31,7 +31,9 @@ Paymentwall's plug-in for Prestashop can be downloaded **[here](https://github.c
 
   > Remember to save changes at the bottom of ```Settings``` section.
 
-<img src="/textures/pic/modules/presta.png">
+<div class="docs-img">
+    <img src="/textures/pic/modules/presta.png">
+</div>
 
 * In ```Widgets``` section, create a widget that you prefer. And save changes. You will see ```Widget code``` after widget creation, which will also be needed later on Prestashop admin panel.
 

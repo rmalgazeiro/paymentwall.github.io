@@ -9,7 +9,9 @@ permalink: sandbox/reporting
 
 Transaction Sanbox Reporting allows you to view the report of your test payments from Paymentwall's merchant area. You can see this report by logging in to your Paymentwall's merchant account and choose Analytic > Transaction > Test Payments. :
 
-![Sandbox Reporting](/textures/pic/sandbox/reporting.png){:width="100%"}
+<div class="docs-img">
+    <img src="/textures/pic/sandbox/reporting.png">
+</div>
 
 Please note that a test payment will only appear in the report for 30 minutes after it is made. 
 

@@ -9,7 +9,7 @@ permalink: mobile-sdk
 
 Paymentwall SDK is a mobile payment solution for the [payment methods](https://www.paymentwall.com/payment-methods) provided by Paymentwall and our partners. It aims to provide better payment experience for mobile users. Below is payment process of credit card. 
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
   <img src="/textures/pic/pw-sdk/choose-ps.png" style="width: 15%">
   <img src="/textures/pic/pw-sdk/perform-cc.png" style="width: 15%">
   <img src="/textures/pic/pw-sdk/processing.png" style="width: 15%">

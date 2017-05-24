@@ -11,17 +11,21 @@ Test Pingback tool is available for you to test how pingbacks work.
 
 This tool is available in the Settings section of your Project once you set up the Pingback URL or Pingback Email:
 
-![Test Pingback Tool](https://api.paymentwall.com/content/design/files/developers/documentation/apis/pingback/pw_pingback_url(1).png)
+<div class="docs-img">
+    <img src="https://api.paymentwall.com/content/design/files/developers/documentation/apis/pingback/pw_pingback_url(1).png">
+</div>
 
 You can send a test pingback and provide your own values for every parameter for debug purposes.
 
-![](https://api.paymentwall.com/content/design/files/developers/documentation/apis/pingback/pw_test_pingback_2.png)
+<div class="docs-img">
+    <img src="https://api.paymentwall.com/content/design/files/developers/documentation/apis/pingback/pw_test_pingback_2.png">
+</div>
 
 As a result of sending the Pingback you will see if Paymentwall received a successful response or not, as well as debug information about signature calculation.
 
-![](https://api.paymentwall.com/content/design/files/developers/documentation/apis/pingback/pw_test_pingback_success_2.png)
-
-<br>
+<div class="docs-img">
+    <img src="https://api.paymentwall.com/content/design/files/developers/documentation/apis/pingback/pw_test_pingback_success_2.png">
+</div>
 
 | **Type** | **Reason** | **API** | **Action needed** |
 | 0 | Payment confirmation | Digital Goods / Brick | Deliver product to customer |

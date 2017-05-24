@@ -707,7 +707,14 @@ to {
     padding-left: 60px;
     background-color: #f9fcfd;
     z-index: 5;
+    border-right: 0.5px solid;
+    border-color: #ebf1f3;
 }
+
+.sidebar-holder .icon{
+    display: none;
+}
+
 .section-sidebar {
     padding:20px 10px 0px 10px;
     max-height:100%
@@ -807,6 +814,53 @@ to {
     text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+    .sidebar-holder {
+        width: 100%;
+        bottom:auto;
+        padding: 0 10% 0 20%;
+        overflow: hidden;
+        position: absolute;
+    }
+
+    .section-sidebar, .modules-section-sidebar {
+        padding: 1em 0;
+        overflow: hidden;
+    }
+
+    .section-sidebar:not(:last-child), .modules-section-sidebar:not(:last-child){
+        display: none;
+    }
+
+    .sidebar-holder .icon{
+        display: block;
+        float: right;
+    }
+
+    .section-sidebar.mobile, .modules-section-sidebar.mobile {
+        display: block;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .sidebar-holder.mobile {
+        position: relative;
+    }
+
+    .sidebar-holder.mobile .icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .sidebar-holder.mobile a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
 .modules-divide {
     padding: 20px 10px 0px 10px;
 }
@@ -849,14 +903,20 @@ to {
     line-height: 1.6;
 }
 
+@media only screen and (max-width: 768px) {
+    .maincontent {
+        position: absolute;
+        width: 100%;
+        margin:0;
+    }
+}
+
 .doc-content {
     font-size: 16px;
     padding: 10px 10%;
     position: relative;
     overflow-x: hidden;
     overflow-y: hidden;
-    border-left: 0.5px solid;
-    border-color: #ebf1f3;
 }
 
 .doc-content ul {
@@ -884,7 +944,7 @@ to {
 }
 
 .doc-content table{
-    width: 100%;
+    max-width: 100%;
     font-size: 14px;
     margin-bottom: 15px;
 }
@@ -989,6 +1049,21 @@ to {
 #payment-form-container {
     float: right;
     padding: 0 10px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .maincontent {
+        margin-top: 52px;
+    }
+}
+
+.docs-img {
+    text-align: center;
+}
+
+.docs-img img {
+    max-width: 100%;
 }
 
 /*preloader CSS*/

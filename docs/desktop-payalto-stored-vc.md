@@ -9,14 +9,14 @@ permalink: payalto/stored/vc
 
 To set up your virtual currency in Paymentwall, you first need to access your [project settings]() and set the virtual currency exchange rate and name of your virtual currency. For example, lets set the virtual currency like 1 USD = 15 Gold coins:
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
     <img src="/textures/pic/payalto/pw_project_vc_exchange_rate.png">
 </div>
 
 
 You can also set more than one currency exchange clicking on "Manage Currency Rates". So your project will have an USD exchange rate, and an EUR exchange rate for EUR region:
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
     <img src="/textures/pic/payalto/pw_project_vc_custom_xe.png">
 </div>
 
@@ -24,13 +24,13 @@ To use Virtual Currency API you need to register your price points in Paymentwal
 
 Please make sure your project is configured as **Virtual Currency API** in order to use this feature.
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
     <img src="/textures/pic/payalto/pw_project_pricepoints.png">
 </div>
 
 Setting price points for Virtual Currency API is not different from Digital Goods products, but now you will also see how much virtual currency the customer is purchasing (this is calculated according to the virtual currency exchange rate). 
 
-<div class="docs-img" style="text-align: center;">
+<div class="docs-img">
     <img src="/textures/pic/payalto/pw_project_pricepoint_screen.png">
 </div>
 
