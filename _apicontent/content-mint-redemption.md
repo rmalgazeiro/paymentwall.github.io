@@ -9,7 +9,7 @@ This API is for merchants to allows users to redeem a MINT ePin.
 ##### Parameters
 
 |Parameter|Description|
-|:---|:---|
+|---|---|
 |amount<br>*required*<br>**int**|The amount of money to pay|
 |currency<br>*required*<br>**string**|[ISO 4217](https://en.wikipedia.org/wiki/ISO_4217) currency code of the ePIN|
 |epin<br>*required*<br>**array**|List of ePINs to redeem <br>Currently, it is only possible to redeem one ePin at a time.|

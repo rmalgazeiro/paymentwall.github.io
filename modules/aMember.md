@@ -58,7 +58,7 @@ Paymentwall's plug-in for aMember can be downloaded **[here](https://github.com/
 Paymentwall provide supports for bellow aMember versions.
 
 |aMember version|Support|
-|:-------|:--------|
+|-------|--------|
 |3|Yes|
 |4|Yes|
 |5|Yes|

@@ -62,7 +62,7 @@ Fill in other information and switch to ```Configure``` tab
 Paymentwall provides supports for bellow CS-Cart versions.
 
 |CS-Cart version|Support|
-|:-------|:--------|
+|-------|--------|
 |3|Yes|
 |4 (up to 4.4)|Yes|
 

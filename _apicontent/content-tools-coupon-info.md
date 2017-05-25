@@ -6,7 +6,7 @@ category: section-tools-coupon-info
 ##### Parameters
 
 |Parameter|Description|
-|:---|:---|
+|---|---|
 |key<br>*required*<br>**string**|The Project Key <br>Log in to your Merchant Account to get the Project Key in General Settings of the project|
 |code<br>*required*<br>**string**|eg: TESTCOUPON<br>Code of coupon|
 |timestamp<br>*required*<br>**int**|eg: 1484900291<br>Current UNIX time|

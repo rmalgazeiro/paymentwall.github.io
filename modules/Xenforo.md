@@ -59,7 +59,7 @@ Paymentwall's plug-in for Xenforo can be downloaded **[here](https://github.com/
 Paymentwall provides supports for bellow Xenforo versions.
 
 |Xenforo version|Support|
-|:-------|:--------|
+|-------|--------|
 |1|Yes|
 |1.5|Yes|
 

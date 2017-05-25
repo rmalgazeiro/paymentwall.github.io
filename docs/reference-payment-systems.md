@@ -14,7 +14,7 @@ To deeplink to one of the payment methods below, you must pass an [optional para
 
 
 |Payment Type|PS Name|PS Shortcode|Logo|
-|:---|:---|:---|:---|
+|---|---|---|---|
 |Credit Cards|Test Method|test|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_dummy.png)|
 |Credit Cards|Credit Cards|cc|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_gateway.png)|
 |Credit Cards|MisterCash|bancontact|[Link to logo](https://api.paymentwall.com/images/ps_logos/pm_mistercash.png)|

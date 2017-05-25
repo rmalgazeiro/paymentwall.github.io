@@ -7,7 +7,7 @@ category: section-invoice-contacts
 ##### Parameters
 
 | Parameter | Description |
-|:---|:---|
+|---|---|
 |company_name<br>**string**| Company name |
 |salutation<br>**string**| Mr./Ms./Dr. |
 |first_name<br>*required*<br>**string**| First name of your client |

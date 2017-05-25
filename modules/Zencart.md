@@ -55,7 +55,7 @@ Paymentwall's plug-in for Zen Cart can be downloaded **[here](https://github.com
 Paymentwall provides supports for bellow Zen Cart versions.
 
 |Zen Cart version|Support|
-|:-------|:--------|
+|-------|--------|
 |1.3|Yes|
 |1.4|Yes|
 |1.5|Yes|

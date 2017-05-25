@@ -131,7 +131,7 @@ Simply obtian the value of ```formHTML``` attribute, embed it into your payment 
 Payments with 3D secure enabled require another charge request with below two parameters included in.
 
 | Parameter | Description|
-| :---|:---|
+| ---|---|
 | charge_id | Charge id of your original charge request. ```brick_charge_id``` in request object. |
 | secure_token | Secure token returned by issuing bank for 3d secure purpose. ```brick_secure_token``` in request object. |
 

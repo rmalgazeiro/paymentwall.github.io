@@ -12,7 +12,7 @@ This reference helps you to learn more about the error you might suffer while in
 ## Onetime token creation error codes
 
 |Error code|Description|
-|:---|:---|
+|---|---|
 |200|Submitted request is empty.|
 |223|Expiration date is empty or invalid.|
 |224|Card number is empty or invalid.|
@@ -39,7 +39,7 @@ In order to fetch the error object from response body, please make sure your app
 ## Failed payment error codes
 
 | Error code | Description|
-|:-----|:-----|
+|-----|-----|
 |1000| Internal Error. Please contact [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) to get help.|
 |1001| Project isn't loaded.Please double check the API credentials|
 |1003| Request payment method is not active. Please contact [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com) to activate|

@@ -15,3 +15,9 @@ $(":header").each(function(){
 	$(this).prepend(text);
 	$(this).removeAttr('id');
 });
+
+if ($(window).width() <= 768){
+    $("table tbody tr td").each(function () {
+        $(this).attr("data-label", $(this).parents("table").find("thead tr").children().eq($(this).index()).text());
+    });
+};

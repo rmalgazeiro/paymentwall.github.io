@@ -9,7 +9,7 @@ The array ```trail``` will be included in if trail product is enabled for its po
 ##### Attributes
 
 |Name|Description|
-|:---|:---|
+|---|---|
 |active| Whether the subscription is activated.|
 |charges| The charge ids in history payments.|
 |date_next| Next charge date, in unix timestamp.|

@@ -6,7 +6,7 @@ category: section-tools-delivery-confirmation-physical
 ##### Parameters
 
 |Parameter|Description|
-|:---|:---|
+|---|---|
 |payment_id <br>*required* <br>**string**| Paymentwall reference ID of the transaction. Can be obtained from parameter ```ref``` in pingback request.|
 |merchant_reference_id <br>*required* <br>**string**| The order ID of the transaction in your system. |
 |type <br>*required* <br>**string**| Type of delivery, required to be set as ```physical```.|

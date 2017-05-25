@@ -10,7 +10,7 @@ permalink: supported_currency
 List of currency we currently support.
 
 |Currency Code|Currency Name|
-|:---|:---|
+|---|---|
 |AED|United Arab Emirates|
 |ALL|Albania|
 |ARS|Argentina|

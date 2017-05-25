@@ -6,7 +6,7 @@ category: section-payalto-flexible-subscription
 ##### Parameters
 
 | Name | Description|
-|:---|:---|
+|---|---|
 |key<br>*required*<br>**string**| The project key. Can be found in General Settings of the Project inside of your merchant account.|
 |uid<br>*required*<br>**string**| ID of the end-user in your system. The maximum length is 64. |
 |widget<br>*required*<br>**string**| Widget code. Can be obtained in the widget sections of your projects.|

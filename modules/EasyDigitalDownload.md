@@ -56,7 +56,7 @@ Paymentwall's plug-in for EDD can be downloaded **[here](https://github.com/paym
 Paymentwall provides supports for bellow EDD versions.
 
 |EDD version|Support|
-|:-------|:--------|
+|-------|--------|
 |4|No|
 |5|Yes|
 |6|Yes|

@@ -55,7 +55,7 @@ Paymentwall's plug-in for Opencart can be downloaded **[here](https://github.com
 Paymentwall provides supports for bellow Opencart versions.
 
 |Opencart version|Support|
-|:-------|:--------|
+|-------|--------|
 |1.5|Yes|
 |2|Yes|
 

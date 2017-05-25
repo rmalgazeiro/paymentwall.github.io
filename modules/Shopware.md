@@ -57,7 +57,7 @@ Paymentwall's plug-in for Shopware can be downloaded **[here](https://github.com
 Paymentwall provides supports for bellow Shopware versions.
 
 |Shopware version|Support|
-|:-------|:--------|
+|-------|--------|
 |3|Yes|
 |4|Yes|
 |5|Yes|

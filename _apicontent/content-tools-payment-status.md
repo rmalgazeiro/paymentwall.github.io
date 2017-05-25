@@ -11,7 +11,7 @@ To activate it please email us at [devsupport@paymentwall.com](mailto:devsupport
 ##### Parameters
 
 |Name|Description|
-|:---|:---|
+|---|---|
 |key<br>*required*<br>**string**| The Project Key<br>Log in to your Merchant Account to get the Project Key in General Settings of the project.|
 |ref<br>*required*<br>**string**| Payment reference ID. <br> Can be obtained from parameter ```ref``` in pingback request.|
 |uid<br>**string**| ID of end-users in your system|

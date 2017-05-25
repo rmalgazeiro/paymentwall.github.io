@@ -55,7 +55,7 @@ Paymentwall's plug-in for WHMCS can be downloaded **[here](https://github.com/pa
 Paymentwall provides supports for bellow WHMCS versions.
 
 |WHMCS version|Support|
-|:-------|:--------|
+|-------|--------|
 |4|No|
 |5|Yes|
 |6|Yes|

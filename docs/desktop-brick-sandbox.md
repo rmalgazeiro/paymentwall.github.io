@@ -20,7 +20,7 @@ You should use a valid expire date to perform test, otherwise Brick.js will repo
 CVV/CSC could be set to any 3 or 4 digits number to test payments normally. Using CVV/VSC code below will result in a different outcome while performing a test payments.
 
 | CVV/CSC| Description|
-|:----|:----|
+|----|----|
 | 111| Error: Please ensure the CVV/CSC number is correct.|
 | 222| Error: Please contact your credit card issuing bank to check your balance.|
 | 333| Error: Please contact your credit card issuing bank to approve your payment.|

@@ -37,7 +37,7 @@ Setting price points for Virtual Currency API is not different from Digital Good
 ## Price points details
 
 | Field | Description |
-|:---|:---|
+|---|---|
 |**Active**| shows or hides the product inside the widget |
 |**Price**| End user payment price|
 |**Base, Gold Coins**| How much VC the price point is worth. No bonuses or discounts applied |

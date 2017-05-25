@@ -59,7 +59,7 @@ Paymentwall's plug-in for IP.Board can be downloaded **[here](https://github.com
 Paymentwall provides supports for bellow IP.Board versions.
 
 |IP.Board version|Support|
-|:-------|:--------|
+|-------|--------|
 |1.5|Yes|
 |2|Yes|
 

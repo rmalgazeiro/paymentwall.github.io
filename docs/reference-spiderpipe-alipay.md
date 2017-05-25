@@ -53,19 +53,19 @@ https://api.paymentwall.com/api/paymentpingback/alipay
 * Find your Paterner ID on Alipay developer page.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/alipay-merchant_info-partner-id.jpg" style="max-width:30%">
+	<img src="/textures/pic/reference/spiderpipe/alipay-merchant_info-partner-id.jpg" style="max-width:80%">
 </div>
 
 * Gnerate Public Key and Private Key.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/alipay-merchant_info-keys.jpg" style="max-width:30%">
+	<img src="/textures/pic/reference/spiderpipe/alipay-merchant_info-keys.jpg" style="max-width:80%">
 </div>
 
 * Fill in the form and save.
 
 <div class="docs-img">
-	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-alipay-form.png" style="max-width:30%">
+	<img src="/textures/pic/reference/spiderpipe/pw-account_settings-spiderpipe-alipay-form.png" style="max-width:80%">
 </div>
 
 > The **Seller ID** is your Alipay registration email.

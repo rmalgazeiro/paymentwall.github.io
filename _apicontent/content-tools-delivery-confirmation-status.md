@@ -6,7 +6,7 @@ category: section-tools-delivery-confirmation-status
 ##### Possible values
 
 |Name|Description|
-|:---|:---|
+|---|---|
 |order_placed| Order has been placed within merchants system. <br> This status should be sent immediately after receiving a pingback.|
 |order_preparing| Merchant started to look for ordered item in stock, processing the order.|
 |started| The delivery has been started.|

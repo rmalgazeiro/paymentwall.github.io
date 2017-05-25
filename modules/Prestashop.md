@@ -64,7 +64,7 @@ Paymentwall's plug-in for Prestashop can be downloaded **[here](https://github.c
 Paymentwall provides supports for bellow Prestashop versions.
 
 |Prestashop version|Support|
-|:-------|:--------|
+|-------|--------|
 |1.3|No|
 |1.4|Yes|
 |1.5|Yes|

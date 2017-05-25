@@ -57,7 +57,7 @@ This tutorial assumes that you have a Paymentwall account. Please **[Sign up](ht
 Paymentwall provides supports for bellow vBulletin versions.
 
 |vBulletin version|Support|
-|:-------|:--------|
+|-------|--------|
 |4|No|
 |5|Yes|
 

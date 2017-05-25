@@ -66,7 +66,7 @@ Paymentwall's plug-in for aMember can be downloaded **[here](https://github.com/
 Paymentwall provides supports for bellow PHPfox versions.
 
 |PHPfox version|Support|
-|:-------|:--------|
+|-------|--------|
 |3|Yes|
 |4|Yes|
 

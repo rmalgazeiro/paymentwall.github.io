@@ -38,7 +38,7 @@ Below table is showing mandatory parameters to call Payment Systems API.
 > Please refer [Payment Systems API](/API-Reference#section-tools-payment-systems) for more detailed information about this API.
 
 | Name | Format|
-|:---|:---|
+|---|---|
 |**key**|string|
 |**country_code**|string|
 |**sign_version**|string|

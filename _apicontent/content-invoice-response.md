@@ -9,7 +9,7 @@ Invoice email will be sent automatically to the ```contacts[email]``` and you wi
 ##### Attributes
 
 | Parameter | Description |
-|:---|:---|
+|---|---|
 | invoice_number | Your invoice number passed in requests |
 | application_id | Your project id in Paymentwall |
 | date | Unix Timestamp value of the date you set for invoice |

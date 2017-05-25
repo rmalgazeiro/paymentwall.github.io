@@ -46,6 +46,12 @@ window.addEventListener("popstate", function(e){
 
 $(document).ready(function() {
 
+    if ($(window).width() <= 768){
+        $("table tbody tr td").each(function () {
+            $(this).attr("data-label", $(this).parents("table").find("thead tr").children().eq($(this).index()).text());
+        });
+    };
+
     $('.docs-nav-list-link').on('click', function(e){
 
         if ($(this).attr('path')!=null) {

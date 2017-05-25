@@ -6,7 +6,7 @@ category: section-tools-coupon-create
 ##### Parameters
 
 |Parameter|Description|
-|:---|:---|
+|---|---|
 |key<br>*required*<br>**string**|The Project Key <br>Log in to your Merchant Account to get the Project Key in General Settings of the project|
 |timestamp<br>*required*<br>**int**|Current UNIX time|
 |sign<br>*required*<br>**string**|The Request Signature<br>All parameters must be put into signature calculation.<br>You MUST use [SHA256](/signature-calculation) for signature algorithm.|

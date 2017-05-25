@@ -62,7 +62,7 @@ Paymentwall's plug-in for Blesta can be downloaded **[here](https://github.com/p
 Paymentwall provides supports for bellow Blesta versions.
 
 |Blesta version|Support|
-|:-------|:--------|
+|-------|--------|
 |3|Yes|
 |4|Yes|
 

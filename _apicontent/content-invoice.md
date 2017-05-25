@@ -11,7 +11,7 @@ please contact to [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com
 ##### Parameters
 
 | Parameter | Description |
-|:---|:---|
+|---|---|
 |invoice_number<br>*required*<br>**string**| Official Invoice number based on your paybook. |
 |currency<br>*required*<br>**string**| Currency code in [ISO 4217](https://en.wikipedia.org/wiki/ISO_4217#Active_codes) |
 |date<br>*required*<br>**string**| Invoice date in mm/dd/yyyy format |

@@ -10,7 +10,7 @@ You will need to add ```browser_ip``` and ```browser_domain``` by your own in [C
 ##### Parameters
 
 | name |  description |
-|:---|:---|
+|---|---|
 | public_key<br> *required* <br> **string** | The project key. Can be found in general settings of the projects inside of your merchant account.|
 | card[number]<br> *required*<br> **number** | User's Card number, the max length should be 16 digits.|
 | card[exp_month]<br> *required* <br> **number** | Expiration month, 2 digits from 01 to 12.|

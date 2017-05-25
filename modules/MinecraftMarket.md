@@ -41,7 +41,7 @@ To connect Paymentwall with your Minecraft Market store simply follow the 3 easy
 ## Version support
 
 |Minecraft Market version|Support|
-|:-------|:--------|
+|-------|--------|
 |1|Yes|
 |2|Yes|
 

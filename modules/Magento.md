@@ -80,7 +80,7 @@ Paymentwall's plug-in for Magento can be downloaded **[here](https://github.com/
 Paymentwall provides supports for bellow Magento versions.
 
 |Magento version|Support|
-|:-------|:--------|
+|-------|--------|
 |1|Yes|
 |2|Yes|
 

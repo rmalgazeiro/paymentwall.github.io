@@ -24,7 +24,7 @@ You can set different settings for each product like specific regions you want t
 ## Product details
 
 | Field | Description |
-|:---|:---|
+|---|---|
 |**Active**| Whether to show the product inside the widget. |
 |**Product name**| Products name. |
 |**Type**| Fixed (one time payments) or time based (subscriptions). |

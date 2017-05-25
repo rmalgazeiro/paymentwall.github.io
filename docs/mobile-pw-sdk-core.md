@@ -34,7 +34,7 @@ By default, none of them is added into core SDK, please choose the options you w
 ## Parameters in core SDK
 
 | Parameter | Description|
-| :---|:---|
+| ---|---|
 | amount<br> *required* <br> **Double**| Your product price. Default region 0.5 USD to 500 USD or equivalent currency. 2 decimal places is expected. |
 | currency<br> *required* <br> **string**| Currency code of your product. Format by [ISO 4217](/supported_currency). 3 letters. |
 | itemName <br> *required* <br> **string**| Your product name. The maximum length is 256.|

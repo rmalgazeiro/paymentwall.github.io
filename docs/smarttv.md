@@ -28,13 +28,13 @@ PWSmartGateway.init(details);
 ```
 
 | Parameter | Description |
-| :--- | :--- |
+| --- | --- |
 | details <br> *required* <br> **JSON object**| JSON object for configuring the SDK |
 
 Detailed JSON object parameters:
 
 | Parameter | Description |
-| :--- | :--- |
+| --- | --- |
 | key <br> *required* <br> **string** | Your Project Key (for live payments) or Brick Test Keys (for tests and development) |
 | countryCode <br> **string**| ISO 3166-1 alpha-2 code of the country (e.g. "KR" or "JP") |
 | containerId <br> **string** | ID of the DOM element to append Smart TV form to specific place in the app (e.g. id of the div element) |

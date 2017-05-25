@@ -12,7 +12,7 @@ List of the language codes (ISO 639-1) which can be used to override the default
 You should send these with parameter ```lang``` as [optional parameter](/API-Reference#section-payalto-optional-parameter), e.g. ```lang=tr``` for Turkish.
 
 | Code | Language |
-|:---|:---|
+|---|---|
 | en | English |
 | fr | French |
 | de | German |

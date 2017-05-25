@@ -7,7 +7,7 @@ category: section-brick-charge-object
 ##### Attributes
 
 |Name|Description|
-|:---|:---|
+|---|---|
 |amount| Price of product.|
 |amount_paid| Payment amount. Depends on what currency enduser is billed.|
 |captured| Whether the payment is captured.|
