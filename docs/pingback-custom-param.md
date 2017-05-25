@@ -58,7 +58,7 @@ echo $widget->getHtmlCode();
 
 Once additional parameter is added on Widget Call script, go to Project > Settings to add custom parameter "my_custom_param".
 
-<div class="img-pingback-customparam-sample" style="text-algin:center;">
+<div class="docs-img">
     <img src="/textures/pic/pingback/customparameter_sample.png">
 </div>
 

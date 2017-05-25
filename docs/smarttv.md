@@ -233,11 +233,13 @@ To cancel a user's subscription, you can show the cancellation form to the end-u
 ```javascript
 PWSmartGateway.showCancelSubscriptionForm(value, function() { ... }, function() { ... });
 ```
+
 | Parameter | Description |
-| --- | --- | 
+| --- | --- |
 | value <br> *required* <br> **JSON object** | JSON object with subscription's details (see details below) |
 | function() <br> **function** | Success callback function |
 | function() <br> **function** | Error callback function |
+
 
 JSON object parameters:
 
