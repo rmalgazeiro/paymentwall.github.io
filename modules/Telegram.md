@@ -7,10 +7,7 @@ sectionid: docs-modules
 
 # Telegram
 
-Paymentwall Bot for Telegram help you to connect your Merchant Bot with Paymentwall to accept payments for goods and services from users.
-With a single integration you’ll have access to our 120+ payment options localized in 75+ currencies
-and more than 200 countries. You’ll also have access to our top-notch risk management and fraud protection services
-, optimization assistance, 24/7 live customer support and detail analytics and reporting tools.
+Paymentwall Bot for Telegram help you to connect your Merchant Bot with Paymentwall to accept payments with Credit Card from users.
 
 The tutorial guides you step by step to successfully connect the Merchant Bot with Paymentwall.
 
@@ -37,15 +34,17 @@ To Authenticate your merchant bot to Paymentwall, please follow the guide below:
 
 ## Setup your Merchant Bot on Telegram
 
-Please see the introduction to payments for more details on the process and how to set up payments for your bot.
+Please see the [introduction to payments](https://core.telegram.org/bots/payments) for more details on the process and how to set up payments for your bot.
  Please note that users will need Telegram v.4.0 or higher to make payments.
 
-## Next step
+## Submit your project for approval
 
-You can start to test payments of your projects.
+* Before submitting your project for review, you can carry out test payments of your project by referring to [test payments with test cards](/paymentwall.github.io/brick/sandbox).
 
-> **[Refer to test payments with test cards](/paymentwall.github.io/brick/sandbox)**
+* After you have tested everything and confirmed that your payments implementation works, your project is ready to switch to LIVE MODE. To do this, in @botfather choose your bot and go to Bot Settings -> Payments and enable Paymentwall live mode.
 
-Once you make sure everything works smoothly, please submit your project to go live.
+* Go back to your Paymentwall Merchant Area -> My Projects, you will see your new [telegram] project created. Submit this project for approval by pressing the Submit For Review button.
 
-> **[See how to live your project](/paymentwall.github.io/go_live-home)**
+* Your project will be approved shortly once we review the integration and make sure that everything is running smoothly for your users.
+
+If you have any questions, please feel free to contact us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com)
