@@ -22,7 +22,7 @@ The tutorial guides you step by step to successfully connect the Merchant Bot wi
 
 * Click on "Business Profile" from the dashboard to fill in your company information and upload required documents
 
-<div>
+<div class="doc-img">
    <img src="https://www.paymentwall.com/uploaded/files/Step5-Cibilis-Paymentwall.png"/>
 </div>
 
@@ -40,7 +40,7 @@ To Authenticate your merchant bot to Paymentwall, please follow the guide below:
 Please see the introduction to payments for more details on the process and how to set up payments for your bot.
  Please note that users will need Telegram v.4.0 or higher to make payments.
 
-## Next steps
+## Next step
 
 You can start to test payments of your projects.
 
