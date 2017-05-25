@@ -43,6 +43,9 @@
 - id: modules-shopware
   title: Shopware
   path: /modules/Shopware
+- id: modules-telegram
+  title: Telegram
+  path: /paymentwall.github.io/modules/Telegram 
 - id: modules-ubercart
   title: Ubercart
   path: /modules/Ubercart
