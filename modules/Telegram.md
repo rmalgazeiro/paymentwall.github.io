@@ -45,6 +45,8 @@ Please see the [introduction to payments](https://core.telegram.org/bots/payment
 
 * Go back to your Paymentwall Merchant Area -> My Projects, you will see your new [telegram] project created. Submit this project for approval by pressing the Submit For Review button.
 
+* Fill in your bot link, put checkout commands in the test and password field in the Integration Checklist.
+
 * Your project will be approved shortly once we review the integration and make sure that everything is running smoothly for your users.
 
 If you have any questions, please feel free to contact us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com)
