@@ -27,26 +27,27 @@ The tutorial guides you step by step to successfully connect the Merchant Bot wi
 
 To Authenticate your merchant bot to Paymentwall, please follow the guide below:
 
-* [@botfather](https://t.me/botfather) choose your bot and go to Bot Settings -> Payments -> Connect to Paymentwall Test Bot
+* In [@botfather](https://t.me/botfather) choose your bot and go to Bot Settings -> Payments -> Connect to Paymentwall Test Bot
 * You will be redirect to Paymentwall bot with the Authorize button. Click on the button to login or register your Paymentwall account.  
 * After the authentication, you will be redirected to [@botfather](https://t.me/botfather) with the new token.
 * A new [telegram] project will be created under My projects section in your Paymentwall account, with Brick credit card processing enable.
 
 ## Setup your Merchant Bot on Telegram
 
-Please see the [introduction to payments](https://core.telegram.org/bots/payments) for more details on the process and how to set up payments for your bot.
- Please note that users will need Telegram v.4.0 or higher to make payments.
+Please see the [introduction to payments](https://core.telegram.org/bots/payments) for more details on the process and how to set up payments for your bot. Please note that users will need Telegram v.4.0 or higher to make payments.
 
-## Submit your project for approval
+# Next step
 
-* Before submitting your project for review, you can carry out test payments of your project by referring to [test payments with test cards](/paymentwall.github.io/brick/sandbox).
+You can start to test payments of your projects.
 
-* After you have tested everything and confirmed that your payments implementation works, your project is ready to switch to LIVE MODE. To do this, in [@botfather](https://t.me/botfather) choose your bot and go to Bot Settings -> Payments and enable Paymentwall live mode.
+> **[Refer to test payments with test cards](/paymentwall.github.io/sandbox/test-payment)**
+
+* After you have tested everything and confirmed that your payments implementation works, you are ready to switch to LIVE MODE. To do this, in [@botfather](https://t.me/botfather) choose your bot and go to Bot Settings -> Payments -> Connect to Paymentwall LIVE Bot
 
 * Go back to your Paymentwall Merchant Area -> My Projects, you will see your new [telegram] project created. Submit this project for approval by pressing the Submit For Review button.
 
 * Fill in your bot link, put checkout commands in the test and password field in the Integration Checklist.
 
-* Your project will be approved shortly once we review the integration and make sure that everything is running smoothly for your users.
+You can refer to the link below for go-live instruction.
 
-If you have any questions, please feel free to contact us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com)
+> **[See how to live your project](/paymentwall.github.io/go_live-home)**
