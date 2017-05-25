@@ -22,7 +22,9 @@ The tutorial guides you step by step to successfully connect the Merchant Bot wi
 
 * Click on "Business Profile" from the dashboard to fill in your company information and upload required documents
 
-<img src="https://www.paymentwall.com/uploaded/files/Step5-Cibilis-Paymentwall.png"/>
+<div>
+   <img src="https://www.paymentwall.com/uploaded/files/Step5-Cibilis-Paymentwall.png"/>
+</div>
 
 ## Authenticate your Merchant Account on Telegram
 
