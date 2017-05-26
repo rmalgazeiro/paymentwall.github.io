@@ -36,7 +36,7 @@ To Authenticate your merchant bot to Paymentwall, please follow the guide below:
 
 Please see the [introduction to payments](https://core.telegram.org/bots/payments) for more details on the process and how to set up payments for your bot. Please note that users will need Telegram v.4.0 or higher to make payments.
 
-# Next step
+## Next step
 
 You can start to test payments of your projects.
 
