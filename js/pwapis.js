@@ -13,32 +13,61 @@ const main = {
     },
     init: function(options) {
         main.options = $.extend(main.options, options);
+
         main.tools.highlightNavigation.call(this, null);
-        
+
         $(window).on('scroll', function(){
             main.tools.highlightNavigation.call(this, null);
         });
 
-        $('.js-expand-trigger').on('click', function(e) {
-            $('.section-sidebar a').not($(this)).each(function(){
-                $(this).removeClass('is-active');
-                $(this).siblings('ul').slideUp();
-            });
-            $(this).addClass('is-active');
-            $(this).siblings('ul').slideDown();
-        });
+        $('.nav-list-link').on('click', function () {
+            if ($(this).hasClass('js-expand-trigger')){
+                $('.section-sidebar a').not($(this)).each(function(){
+                    $(this).removeClass('is-active');
+                    $(this).siblings('ul').slideUp();
+                });
+                $(this).addClass('is-active');
+                $(this).siblings('ul').slideDown();
+            }
 
-        $('.leaf').on('click', function(e){
-            $('.section-sidebar a').not($(this)).each(function(){
-                $(this).removeClass('is-active');
-            });
-            $(this).addClass('is-active');
-        })
+            if ($(this).hasClass('leaf')){
+                $('.section-sidebar a').not($(this)).each(function(){
+                    $(this).removeClass('is-active');
+                });
+                $(this).addClass('is-active');
+            }
+        });
 
         $('.code-tabs__tab').on('click', function(e) {
             e.preventDefault();
             main.tools.showCodeTab.call(this, null);
         });
+
+        $('#section-icon a').on('click', function (e) {
+            if ($('.section-sidebar').attr('class') === 'section-sidebar') {
+                $('#api_nav').css('z-index','20');
+                $('.section-sidebar').addClass('mobile');
+                $('#section-icon a').html('&#9747');
+            } else {
+                $('.section-sidebar').removeClass('mobile');
+                $('#section-icon a').html('&#9776');
+                $('#api_nav').css('z-index','0');
+            }
+        });
+
+        $(".article").each(function(){
+            var text = $('<a class="anchor" id=' + $(this).attr('id') + '></a>');
+            $(this).prepend(text);
+            $(this).removeAttr('id');
+        });
+
+        if ($(window).width() <= 992){
+            $('.reference-col__tab').each(function () {
+               if ($(this).text().replace(/\s/g,"") == ""){
+                   $(this).css('display','none');
+               }
+            });
+        };
 
         this.load();
     },
@@ -66,7 +95,7 @@ const main = {
 
             var sectionIdTonavigationLink = {};
             $sections.each(function() {
-                var id = $(this).attr('id');
+                var id = $(this).attr('name');
                 sectionIdTonavigationLink[id] = $('a[name=' + id + ']');
             });
 
@@ -74,10 +103,14 @@ const main = {
 
             $sections.each(function() {
                 var currentSection = $(this);
-                var sectionTop = currentSection.offset().top - 65;
+                var sectionTop = currentSection.offset().top - 100;
+
+                if ($(window).width() <= 992){
+                    sectionTop = sectionTop - 50;
+                }
 
                 if (scrollPosition >= sectionTop) {
-                    var currentSectionId = currentSection.attr('id');
+                    var currentSectionId = currentSection.attr('name');
                     var $navigationLink = sectionIdTonavigationLink[currentSectionId];
 
                     var $parent = $navigationLink;

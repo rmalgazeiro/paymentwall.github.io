@@ -24,7 +24,7 @@ category: section-brick-charge
 | custom <br> **array** | To receive these values via [pingbacks](/default-pingback), please add [custom pingback parameter](/pingback-custom-parameters) with ```name=custom``` and ```value=OWN```. |
 | secure_redirect_url<br> **string**  | For 3D Secure payments: URL of the billing page where ```brick_secure_token``` and ```brick_charge_id``` should be sent via ```POST``` after the user completes 3D Secure step. It is recommended to embed ```brick_fingerprint``` and ```brick_token``` into this URL along with the order ID to subsequently pass them into the Charge.|
 | secure_token<br> **string**  | 3D Secure token returned to the website after the user completing the 3D Secure step. **Required** for submitting additional information after 3D Secure step. |
-| charge_id<br>**string**  | ID of the original Charge that was sent 3D Secure step. **Required** for submitting additional information after 3D secure step.|
+| charge_id<br> **string**  | ID of the original Charge that was sent 3D Secure step. **Required** for submitting additional information after 3D secure step.|
 | secure <br> **boolean**  | 3D Secure flow is enforced if secure=1 is passed. |
 
 ```browser_ip``` and ```browser_domain``` are required if you do not have ```fingerprint``` generated.

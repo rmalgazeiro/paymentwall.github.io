@@ -136,10 +136,10 @@ $(document).ready(function() {
             $('#section-icon a').html('&#9747');
 
         }else {
-            $('.section-sidebar').attr('class','section-sidebar');
-            $('.modules-section-sidebar').attr('class','modules-section-sidebar');
+            $('.section-sidebar').removeClass('mobile');
+            $('.modules-section-sidebar').removeClass('mobile');
             $('#section-icon a').html('&#9776');
-            $('.maincontent').attr('class','maincontent');
+            $('.maincontent').removeClass('mobile');
         }
         $('.maincontent').css('margin-top', $('.sidebar-holder').outerHeight(true));
     });

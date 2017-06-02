@@ -28,7 +28,7 @@ In order to implement 3d secure feature, you will need to do following adjustmen
 
 Once a payment is enrolled into 3d secure payment step, the payer need to verify himself on 3d secure form, it could be his card password or a SMS message containing verification code, etc. 
 
-Displaying 3d secure form for your customers is the first step. After that, ```brick_secure_token``` and ```brick_charge_id``` would be included into the http ```request``` object when the payer has completed the 3d secure step, which are needed in second charge request.
+Displaying 3d secure form for your customers is the first step. After that, ```brick_secure_token``` and ```brick_charge_id``` would be included into the http ```request``` object once the payer has completed the 3d secure step, which are needed in second charge request.
 
 The implementation is different depending on your payment form.
 
@@ -97,7 +97,7 @@ For merchants who prefer [custom payment form](/brick/create-form#tokenize-payme
 ```brick_fingerprint``` and ```brick_token``` of the original request should be embedded into ```secure_redirect_url```, so that they can be subsequently passed into the second charge request. Here is a sample:
 
 ```html
-http://your-domain/your-secure-redirect-url?brick_token=ot_4ca5cbda3d4af3444759e4934dd25717&brick_fingerprint=satiO3yvBDuPMEZUJep4vKuqVav5VxAT
+secure_redirect_url: http://your-domain/your-secure-redirect-url?brick_token=ot_4ca5cbda3d4af3444759e4934dd25717&brick_fingerprint=satiO3yvBDuPMEZUJep4vKuqVav5VxAT
 ```
 
 **Obtain 3d secure form and display it**
@@ -118,7 +118,7 @@ Simply obtian the value of ```formHTML``` attribute, embed it into your payment 
 ```html
 <script>
   document.getElementById("3ds_form_container").getElementsByTagName("form")[0].submit();
-  // 3ds_form_container is the place where 3d secure form is embeded in
+  // 3ds_form_container is the place where 3d secure form is embedded in
 </script>
 ```
 
@@ -128,14 +128,14 @@ Simply obtian the value of ```formHTML``` attribute, embed it into your payment 
 
 ## Re-submit charge request
 
-Payments with 3D secure enabled require another charge request with below two parameters included in.
+Payments with 3D secure enabled requires another charge request with below two parameters included in.
 
 | Parameter | Description|
 | ---|---|
 | charge_id | Charge id of your original charge request. ```brick_charge_id``` in request object. |
 | secure_token | Secure token returned by issuing bank for 3d secure purpose. ```brick_secure_token``` in request object. |
 
-As these two parameters have been passed to your backend, you can easily use them directly for second charge request.
+As these two parameters have been passed to your backend, you can easily add them directly in second charge request.
 
 {% assign codeId = "desktop-brick-3dsecure-2nd-charge-request" %}
 <div class="docs-code" id="{{ codeId }}">

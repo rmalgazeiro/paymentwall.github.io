@@ -37,8 +37,6 @@
           title: Onetime
         - name: section-payalto-flexible-subscription
           title: Subscription
-        - name: section-payalto-flexible-serverside
-          title: Server Side
     - name: section-payalto-optional-parameter
       title: Optional Parameter
 - title: MOBIAMO

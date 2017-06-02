@@ -9,7 +9,7 @@ permalink: payalto-home
 
 PayAlto is a payment methods aggregation platform which contains the payment methods provides by Paymentwall and our partners.
 
-It can be integrated in any kind of checkout flow, from a standalone widget to deep-linked payment systems.
+It can be integrated as widget which is hosted by Paymentwall in your application. 
 
 ## Payment method categories
 
@@ -41,9 +41,9 @@ Check [payment methods](https://www.paymentwall.com/payment-methods) for more de
 
 We assume that you have created a Paymentwall project.
 
-* Using our [PayAlto API](/API-Reference#section-payalto) to call the payment widget. 
+* Using our [PayAlto API](/API-Reference#section-payalto) to build the payment widget. 
 
-* Display our payment widget in your application.
+* Display our payment widget by using ```iframe``` or opening it directly in a new tab.
 
 * Setup Pingback listener
 

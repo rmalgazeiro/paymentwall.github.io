@@ -11,8 +11,8 @@ You will need to add ```browser_ip``` and ```browser_domain``` by your own in [C
 
 | name |  description |
 |---|---|
-| public_key<br> *required* <br> **string** | The project key. Can be found in general settings of the projects inside of your merchant account.|
-| card[number]<br> *required*<br> **number** | User's Card number, the max length should be 16 digits.|
-| card[exp_month]<br> *required* <br> **number** | Expiration month, 2 digits from 01 to 12.|
-| card[exp_year]<br> *required*<br>**number** | Expiration year, 4 digits.|
-| card[cvv]<br>*required*<br>**number** | CVC/CVV, 3-4 digits depends on the type of credit cards.|
+| public_key<br>  *required* <br>  **string** | The project key. Can be found in general settings of the projects inside of your merchant account.|
+| card[number]<br>  *required*<br>  **number** | User's Card number, the max length should be 16 digits.|
+| card[exp_month]<br>  *required* <br>  **number** | Expiration month, 2 digits from 01 to 12.|
+| card[exp_year]<br>  *required*<br> **number** | Expiration year, 4 digits.|
+| card[cvv]<br> *required*<br> **number** | CVC/CVV, 3-4 digits depends on the type of credit cards.|

@@ -11,11 +11,11 @@ This API allows to issue a request to refund a transaction or to cancel a recurr
 
 |Parameter|Description|
 |---|---|
-|key<br>*required*<br>**string**| The Project Key. Sign in to your Merchant Account to get the Project Key in General Settings of the project|
-|ref<br>*required*<br>**string**| Payment reference ID.<br>Can be obtained from parameter ```ref``` in pingback request. |
-|type<br>*required*<br>**integer**| Type of the ticket:<br>1. Refund<br>2. Recurring billing cancellation<br>3.Others|
-|message<br>*required*<br>**string**| Description of the ticket, a short instruction about the reason of cancellation is expected.|
-|sign_version<br>*required*<br>**integer**| Signature version<br>Version 2 employs MD5 and version 3 uses SHA256.|
-|sign<br>*required*<br>**string lowercase**|The request signature. Refer to [Signature Calculation](/signature-calculation) for more details.|
-|test_mode <br>**integer**| Either 0 or 1.<br>1 means that the API is used in test mode, in this case no real ```ref``` is required.|
-|uid<br>**string**| ID of end-users in your system. ```ref``` is not required if ```uid``` is submitted.|
+|key<br> *required*<br> **string**| The Project Key. Sign in to your Merchant Account to get the Project Key in General Settings of the project|
+|ref<br> *required*<br> **string**| Payment reference ID.<br> Can be obtained from parameter ```ref``` in pingback request. |
+|type<br> *required*<br> **integer**| Type of the ticket:<br> 1. Refund<br> 2. Recurring billing cancellation<br> 3.Others|
+|message<br> *required*<br> **string**| Description of the ticket, a short instruction about the reason of cancellation is expected.|
+|sign_version<br> *required*<br> **integer**| Signature version<br> Version 2 employs MD5 and version 3 uses SHA256.|
+|sign<br> *required*<br> **string lowercase**|The request signature. Refer to [Signature Calculation](/signature-calculation) for more details.|
+|test_mode <br> **integer**| Either 0 or 1.<br> 1 means that the API is used in test mode, in this case no real ```ref``` is required.|
+|uid<br> **string**| ID of end-users in your system. ```ref``` is not required if ```uid``` is submitted.|

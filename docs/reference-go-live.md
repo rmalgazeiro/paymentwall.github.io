@@ -37,7 +37,7 @@ We recommend you to create another project under your Paymentwall account as sta
 
 A checklist form will be opened and asking you to confirm that you have completed associated operations once you submit your project for review.
 
-* [Integration checklist](/go_live-integration).
+* [Integration checklist](/go_live-technical).
 
 * [Business checklist](/go_live-compliance).
 

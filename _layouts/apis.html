@@ -16,7 +16,7 @@ sectionid: apireference
                 {% for section in site.data.apis-nav %}
                 {% for item in section.items %}
                 {% assign sectionID = item.name %}
-                <section class="article" id="{{ item.name }}">
+                <section class="article" id="{{ item.name }}" name = "{{ item.name }}">
                     <div class="reference-col reference-col--content">
                         {% for body in site.apicontent %}
                         {% if body.category == sectionID %}
@@ -87,7 +87,7 @@ sectionid: apireference
                 {% if item.subitems %}
                 {% for subitem in item.subitems %}
                 {% assign sectionSubitemID = subitem.name %}
-                <section class="article leaf" id="{{ subitem.name }}">
+                <section class="article leaf" id="{{ subitem.name }}" name = "{{ subitem.name }}">
                     <div class="reference-col reference-col--content">
                         {% for body in site.apicontent %}
                         {% if body.category == sectionSubitemID %}

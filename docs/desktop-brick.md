@@ -33,6 +33,8 @@ permalink: brick-home
 
 Brick is a pure credit card payment solution provided by Paymentwall. It allows you to develop your own payment experience for credit cards payments specifically.
 
+It has been embedded into [PayAlto](/payalto-home) as credit card gateway. Alternatively, you can integrate it using [Brick API](/API-Reference#section-brick-onetime-token) in your application. 
+
 ## Try with Brick
 
 By using Brick test cards in [Sanbox](/brick/sandbox) or card information below to do a test payment.
