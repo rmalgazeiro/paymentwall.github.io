@@ -1,6 +1,6 @@
 ---
 id: desktop-brick-3dsecure
-title: 3d Secure
+title: 3D Secure
 sectionid: docs
 permalink: brick/3dsecure
 ---

@@ -1,6 +1,6 @@
 ---
 id: mobile-panda-plugin
-title: Panda Plguin
+title: Plguin SDK
 sectionid: docs
 permalink: mobile/plugin
 ---
