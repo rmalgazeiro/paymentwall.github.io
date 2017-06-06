@@ -1,6 +1,6 @@
 ---
 id: desktop-payalto-stored-dg
-title: Digital Goods API with stored product
+title: Digital Goods
 sectionid: docs
 permalink: payalto/stored/dg
 ---

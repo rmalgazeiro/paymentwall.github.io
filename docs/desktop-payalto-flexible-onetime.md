@@ -1,6 +1,6 @@
 ---
 id: desktop-payalto-flexible-onetime
-title: Charge
+title: Onetime payment
 sectionid: docs
 permalink: payalto/flexible/onetime
 ---

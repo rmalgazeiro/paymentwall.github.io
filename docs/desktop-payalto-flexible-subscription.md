@@ -1,6 +1,6 @@
 ---
 id: desktop-payalto-flexible-subscription
-title: Charge
+title: Subscriptions
 sectionid: docs
 permalink: payalto/flexible/subscription
 ---
