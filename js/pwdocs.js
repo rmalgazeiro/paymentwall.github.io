@@ -143,5 +143,4 @@ $(document).ready(function() {
         }
         $('.maincontent').css('margin-top', $('.sidebar-holder').outerHeight(true));
     });
-
 });
