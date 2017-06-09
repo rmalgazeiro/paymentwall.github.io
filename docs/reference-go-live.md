@@ -23,9 +23,9 @@ Paymentwall team will take a whole review of your project and set your project s
 
 It mostly depends on the product you are using.
 
-[PayAlto](/payalto-home) uses same API credentials in both sandbox and live environment.
+[Hosted Checkout](/hosted-home) uses same API credentials in both sandbox and live environment.
 
-For merchants who are using [Brick](/brick-home), you will need to replace your brick test credentials to the live one.
+For merchants who are using [Brick](/direct/brick-home), you will need to replace your brick test credentials to the live one.
 
 * Disable test payment method
 

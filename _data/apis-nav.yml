@@ -2,6 +2,37 @@
   items:
     - name: section-head
       title: Introduction
+- title: HOSTED CHECKOUT
+  items:
+    - name: section-hosted-stored
+      title: Stored product
+      subitems:
+        - name: section-hosted-stored-dg
+          title: Digital Goods
+        - name: section-hosted-stored-vc
+          title: Virtual Currency
+    - name: section-hosted-flexible
+      title: Flexible product
+      subitems:
+        - name: section-hosted-flexible-onetime
+          title: Onetime
+        - name: section-hosted-flexible-subscription
+          title: Subscription
+    - name: section-hosted-optional-parameter
+      title: Optional Parameter
+    - name: section-hosted-invoice
+      title: Invoice
+      subitems:
+        - name: section-hosted-invoice-contacts
+          title: Contacts
+        - name: section-hosted-invoice-items
+          title: Items
+        - name: section-hosted-invoice-tax_invoice
+          title: Invoice tax/discount
+        - name: section-hosted-invoice-tax_item
+          title: Iteam tax/discount
+        - name: section-hosted-invoice-response
+          title: Response attributes
 - title: BRICK
   items:
     - name: section-brick-onetime-token
@@ -19,26 +50,6 @@
       subitems:
         - name: section-brick-subscription-object
           title: Response object
-- title: PAYALTO
-  items:
-    - name: section-payalto
-      title: About
-    - name: section-payalto-stored
-      title: Stored product
-      subitems:
-        - name: section-payalto-stored-dg
-          title: Digital Goods
-        - name: section-payalto-stored-vc
-          title: Virtual Currency
-    - name: section-payalto-flexible
-      title: Flexible product
-      subitems: 
-        - name: section-payalto-flexible-onetime
-          title: Onetime
-        - name: section-payalto-flexible-subscription
-          title: Subscription
-    - name: section-payalto-optional-parameter
-      title: Optional Parameter
 - title: MOBIAMO
   items:
     - name: section-mobiamo-pricepoint
@@ -54,21 +65,6 @@
           title: Get ePIN balance 
     - name: section-mint-redemption
       title: MINT redemption
-- title: INVOICE
-  items:
-    - name: section-invoice
-      title: Invoice
-      subitems:
-        - name: section-invoice-contacts
-          title: Contacts
-        - name: section-invoice-items
-          title: Items
-        - name: section-invoice-tax_invoice
-          title: Invoice tax/discount
-        - name: section-invoice-tax_item
-          title: Iteam tax/discount
-        - name: section-invoice-response
-          title: Response attributes
 - title: TOOLS
   items:
     - name: section-tools-cancellation

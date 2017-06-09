@@ -15,9 +15,9 @@ You will see technical integration part on the left side. Check all the checkbox
 
 > The url where Paymentwall widget is placed should be provided along with a test account on your website. If you are using our product on mobile, please replace the url with a downloadable link of your application.
 
-## PayAlto check points
+## Hosted Checkout check points
 
-Below is the check points for merchants who are using [PayAlto](/payalto-home).
+Below is the check points for merchants who are using [Hosted Checkout](/hosted-home).
 
 * Integrate a payment widget. It should be accessible on your website/application.
 
@@ -43,13 +43,13 @@ Below is the check points for merchants who are using [PayAlto](/payalto-home).
 
 ## Brick check points
 
-Below is the check points for merchants who are using [Brick](/brick-home).
+Below is the check points for merchants who are using [Brick](/direct/brick-home).
 
 * Payment page must be loaded via **HTTPS**.
 
 * Client-side tokenization using Brick.js, fingerprint is included in Brick requests. 
 
-* [3D secure](/brick/3dsecure) payment step is implemented.
+* [3D secure](/direct/brick/3dsecure) payment step is implemented.
 
 * Your servers does NOT receive/handle customer's CC data.
 
