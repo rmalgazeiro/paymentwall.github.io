@@ -831,12 +831,12 @@ p {
     border-left:2px solid #cecece
 }
 
-#nav-desktop-payalto,
-#nav-desktop-brick,
-#nav-desktop-mobiamo,
-#nav-desktop-mint,
-#nav-desktop-offerwall,
-#nav-desktop-invoice,
+#nav-desktop-direct-brick,
+#nav-desktop-direct-mobiamo,
+#nav-desktop-direct-mint,
+#nav-desktop-direct-payalto,
+#nav-desktop-hosted-invoice,
+#nav-desktop-hosted-offerwall,
 #nav-mobile-sdk,
 #nav-smarttv-sdk{
     font-weight: bold;

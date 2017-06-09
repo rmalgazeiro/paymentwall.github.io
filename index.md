@@ -11,14 +11,19 @@ Get started with Paymentwall by using the documentation provided in this site.
 
 Choose the product which is most suitable for you and start integration with us!
 
+> This page is hosted by Github pages, you can also view it on [Github](https://github.com/paymentwall/paymentwall.github.io).
+
 ## Desktop
 
-- [PayAlto](/payalto-home). A payment methods aggregation platform which integrated payment methods provided by Paymentwall and our partners.
-- [Brick](/brick-home). A pure credit card payment solution.
-- [Mobiamo](/about-mobiamo). A mobile SMS payment methods aggregation platform.
-- [MINT](/mint-home). An online prepaid payment method.
-- [Offerwall](/offerwall-home). The monetizing & advertising solution.
-- [Invoice](/invoice). E-invoicing payments. 
++ [Hosted Checkout](/hosted-home).
+    - [Stored product](/hosted/stored-products). 
+    - [Flexible product](/hosted/flexible-products).
+    - [Invoice](/hosted/invoice). 
+    - [Offerwall](/hosted/offerwall-home).
++ [Direct API](/direct-home). 
+    - [Brick](/direct/brick-home).
+    - [Mobiamo](/direct/mobiamo-home).
+    - [MINT](/direct/mint-home). 
 
 ## Mobile
 
