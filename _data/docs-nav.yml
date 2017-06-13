@@ -9,7 +9,7 @@
       path: /hosted-home
       subitems:
         - id: nav-desktop-hosted-stored
-          title: Stored product
+          title: STORED PRODUCT
           path: /hosted/stored-products
           leaves:
             - id: nav-desktop-hosted-stored-dg
@@ -19,7 +19,7 @@
               title: Virtual Currency
               path: /hosted/stored/vc
         - id: nav-desktop-hosted-flexible
-          title: Flexible product
+          title: FLEXIBLE PRODUCT
           path: /hosted/flexible-products
           leaves:
             - id: nav-desktop-hosted-flexible-onetime
