@@ -39,6 +39,6 @@ A checklist form will be opened and asking you to confirm that you have complete
 
 * [Integration checklist](/go_live-technical).
 
-* [Business checklist](/go_live-compliance).
+* [Business checklist](/go_live-business).
 
 

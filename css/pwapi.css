@@ -1098,6 +1098,7 @@ p {
 .page-header-nav-link.is-active {
 	color: #fec013;
 	border-color: #fec013;
+	font-weight: 500;
 }
 
 .page-header__link li{
@@ -1646,7 +1647,7 @@ p {
 .reference-col--code {
 	flex-basis:46%;
 	max-width:100%;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -1807,8 +1808,7 @@ p {
 	letter-spacing: 0;
 	color:#474747;
 	line-height:1;
-	margin-top: 20px;
-	padding: 10px 0 5px 0;
+	padding: 5px 0 5px 0;
 }
 
 @media only screen and (max-width: 992px){

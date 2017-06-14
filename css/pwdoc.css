@@ -547,6 +547,7 @@ p {
 .page-header-nav-link.is-active {
     color: #fec013;
     border-color: #fec013;
+    font-weight: 500;
 }
 
 

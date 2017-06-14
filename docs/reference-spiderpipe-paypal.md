@@ -170,7 +170,7 @@ Select **Request API signature** and click **Agree and Submit** to generate a se
 
 Enter custom **User ID** and **Password** (shared with Paymentwall).
 
->  These credentials should be entered to the PayPal account setting at Paymentwall (Multi-User Access section – **User ID** and **Password**textfields). 
+>  These credentials should be entered to the PayPal account setting at Paymentwall (Multi-User Access section – **User ID** and **Password** textfields). 
 
 * Assign access.
 
