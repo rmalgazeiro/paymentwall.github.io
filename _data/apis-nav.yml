@@ -54,6 +54,11 @@
   items:
     - name: section-mobiamo-pricepoint
       title: Pricepoint
+    - name: section-mobiamo-pinless
+      title: Pinless
+      subitems:
+        - name: section-mobiamo-pinless-object
+          title: Response Object
 - title: MINT
   items:
     - name: section-mint-reseller
