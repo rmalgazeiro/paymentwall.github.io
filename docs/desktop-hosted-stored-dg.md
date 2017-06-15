@@ -9,11 +9,9 @@ permalink: hosted/stored/dg
 
 Recurring membership, in-game virtual items, digital content, full version of a game or software, Saas, and one-time payments can be stored in Paymentwalls side in order to facilitate the API call: 
 
-Please make sure your project is configured as **Digital Goods API** in order to use this feature.
+Please make sure your project is configured as **Digital Goods API** before starting.
 
-<div class="docs-img">
-    <img src="/textures/pic/hosted/pw_project_products.png" style="width: 50%"> 
-</div>
+## Setup products
 
 You can set different settings for each product like specific regions you want that product to be sold (useful for localizing), one time payment or recurring subscription, price, and discount.
 
@@ -46,18 +44,14 @@ You can set different settings for each product like specific regions you want t
  
 ## API Call
 
-See [code sample](/API-Reference#section-hosted-stored-dg) to perform API Call.
-
-You can use blow ways to handle the ```widget``` object.
-
-* ```getHtmlcode```, which returns an **iFrame** html code with default width and height. 
-
-* If you want to have your own iFrame to display our payment widget or open it in a new tab, use ```getUrl``` instead.
+See [stored product for digital goods](/API-Reference#section-hosted-stored-dg) to perform API Call.
 
 ## Next Step
 
-After implementing the paylet you need to implement the server side pingback script in order to receive the payments confirmations.
+Once you have successfully integrated our widget, you can then continue with pingback setup.
 
-Refer to the link below for Digital Goods API pingbacks:
+> [Pingbacks for digital goods API](/default-pingback-dg).
 
-> **[Pingbacks](/default-pingback-dg)**
+Alternatively, you can also see virtual currency of stored product.
+
+> [Virtual currency](/hosted/stored/vc).

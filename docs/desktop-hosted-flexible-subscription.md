@@ -13,11 +13,19 @@ You can also setup subscription for your customers while using Flexible product.
 
 The parameter ```ag_type``` should be set as ```subscription``` in API call. See code sample for [subscription](/API-Reference#section-hosted-flexible-subscription) to perform API Call.
 
-You can use blow ways to handle the ```widget``` object.
+## Subscription payment methods 
 
-* ```getHtmlcode```, which returns an **iframe** html code with default width and height. 
+* PayPal, using [spiderpipe](/spiderpipe/paypal).
 
-* If you want to have your own iframe to display our payment widget or open it in a new tab, use ```getUrl``` instead.
+* Mercado pago.
+
+* Qiwi Wallet.
+
+* Credit cards.
+
+* Mobiamo.
+
+* SEPA.
 
 ## Subscription Schedule
 
@@ -41,12 +49,16 @@ For this event Paymentwall will send a pingback with ```type=14```, means subscr
 
 ## Subscription Cancellation
 
-See [cancellation API](/API-Reference#section-tools-cancellation)to stop subscription for your customers.
+See [cancellation API](/API-Reference#section-tools-cancellation) to stop subscription for your customers.
 
 ## Next Step
 
 After implementing the paylet you need to implement the server side pingback script in order to receive the payments confirmations.
 
-Refer to the link below for Digital Goods API pingbacks:
+> [Pingbacks](/default-pingback).
 
-> **[Pingbacks](/default-pingback)**
+Below links may also be helpful for you.
+
+> [Test payment method](/sandbox/test-payment).
+
+> [SpiderPipe](/spiderpipe-home).
