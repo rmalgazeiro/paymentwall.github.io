@@ -64,9 +64,6 @@
           title: MOBIAMO
           path: /direct/mobiamo-home
           leaves:
-            - id: nav-desktop-direct-mobiamo-integration
-              title: Integration and Activation
-              path: /direct/mobiamo/mobiamo-integration
             - id: nav-desktop-direct-mobiamo-flow
               title: Payment flows
               path: /direct/mobiamo/mobiamo-flow

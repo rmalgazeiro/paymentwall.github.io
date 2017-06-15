@@ -47,7 +47,9 @@ We assume that you have created a Paymentwall project.
 
 * Using our [Hosted Checkout API](/API-Reference#section-hosted) to build the payment widget. 
 
-* Display our payment widget by using ```iframe``` or opening it directly in a new tab.
++ Display our payment widget. You can use blow ways to handle the ```widget``` object.
+    - ```getHtmlcode```, which returns an **iframe** html code with default width and height. 
+    - If you want to have your own iFrame to display our payment widget or open it in a new tab, use ```getUrl``` instead.
 
 * Setup Pingback listener
 

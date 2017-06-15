@@ -7,32 +7,33 @@ permalink: hosted/stored/vc
 
 # Virtual Currency
 
-To set up your virtual currency in Paymentwall, you first need to access your [project settings]() and set the virtual currency exchange rate and name of your virtual currency. For example, lets set the virtual currency like 1 USD = 15 Gold coins:
+Please make sure your project is configured as **Virtual Currency API** before starting.
+
+## Setup price points
+
+By using virtual currency, you can add your own price points to specific payment method. Do following steps to configure your price points.
+
+* Access your **project settings** and set the virtual currency exchange rate and name of your virtual currency. For example, lets set the virtual currency like 1 USD = 15 Gold coins:
 
 <div class="docs-img">
     <img src="/textures/pic/hosted/pw_project_vc_exchange_rate.png">
 </div>
 
-
-You can also set more than one currency exchange clicking on "Manage Currency Rates". So your project will have an USD exchange rate, and an EUR exchange rate for EUR region:
-
-<div class="docs-img">
-    <img src="/textures/pic/hosted/pw_project_vc_custom_xe.png">
-</div>
-
-To use Virtual Currency API you need to register your price points in Paymentwalls side, in Project > Price Points area.
-
-Please make sure your project is configured as **Virtual Currency API** in order to use this feature.
+* You can also set more than one currency exchange clicking on **Manage Currency Rates**. So your project will have an USD exchange rate, and an EUR exchange rate for EUR region:
 
 <div class="docs-img">
-    <img src="/textures/pic/hosted/pw_project_pricepoints.png">
+    <img src="/textures/pic/hosted/pw_project_vc_custom_xe.png" style="height: ">
 </div>
 
-Setting price points for Virtual Currency API is not different from Digital Goods products, but now you will also see how much virtual currency the customer is purchasing (this is calculated according to the virtual currency exchange rate). 
+* You can then register your price points in Paymentwall side. In **Price Points** area, choose the payment systems where you want to set price points in and add yours there. 
 
 <div class="docs-img">
     <img src="/textures/pic/hosted/pw_project_pricepoint_screen.png">
 </div>
+
+> Mobiamo has its own price points which are declared by mobile operators. New price points are not acceptable for Mobiamo.
+
+You will also see how much virtual currency the customer is purchasing (this is calculated according to the virtual currency exchange rate).
 
 ## Price points details
 
@@ -54,18 +55,14 @@ Setting price points for Virtual Currency API is not different from Digital Good
  
 ## API Call
 
-See [code samples](/API-Reference#section-hosted-stored-vc).
-
-You can use blow ways to handle the ```widget``` object.
-
-* ```getHtmlcode```, which returns an **iFrame** html code with default width and height. 
-
-* If you want to have your own iFrame to display our payment widget or open it in a new tab, use ```getUrl``` instead.
+See [stored product for virtual currency](/API-Reference#section-hosted-stored-vc).
 
 ## Next Step
 
-After implementing the Paylet you need to implement the server side pingback script in order to receive the payments confirmations.
+Once you have successfully integrated our widget, you can then continue with pingback setup.
 
-Refer to the link below for Virtual Currency API pingbacks:
+> [Pingbacks for virtual currency API](/default-pingback-dg).
 
-> [Pingbacks](/pingback-default-pingback)
+Alternatively, you can also see digital goods of stored product.
+
+> [Digital goods](/hosted/stored/dg).
