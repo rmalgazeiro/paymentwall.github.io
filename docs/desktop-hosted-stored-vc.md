@@ -22,7 +22,7 @@ By using virtual currency, you can add your own price points to specific payment
 * You can also set more than one currency exchange clicking on **Manage Currency Rates**. So your project will have an USD exchange rate, and an EUR exchange rate for EUR region:
 
 <div class="docs-img">
-    <img src="/textures/pic/hosted/pw_project_vc_custom_xe.png" style="height: ">
+    <img src="/textures/pic/hosted/pw_project_vc_custom_xe.png">
 </div>
 
 * You can then register your price points in Paymentwall side. In **Price Points** area, choose the payment systems where you want to set price points in and add yours there. 
@@ -61,7 +61,7 @@ See [stored product for virtual currency](/API-Reference#section-hosted-stored-v
 
 Once you have successfully integrated our widget, you can then continue with pingback setup.
 
-> [Pingbacks for virtual currency API](/default-pingback-dg).
+> [Pingbacks for virtual currency API](/default-pingback-vc).
 
 Alternatively, you can also see digital goods of stored product.
 
