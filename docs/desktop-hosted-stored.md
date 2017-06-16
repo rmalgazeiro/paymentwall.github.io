@@ -7,7 +7,7 @@ permalink: hosted/stored-products
 
 # Stored Products
 
-Stored product means that you registered your product in Paymentwalls side.
+Stored product means that you registered your product in Paymentwall side.
 
 You can set different settings for each product/price point like specific regions you want that product to be sold, one time payment or recurring subscription, price, and discounts/bonuses.
 
