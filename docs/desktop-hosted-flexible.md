@@ -7,7 +7,7 @@ permalink: hosted/flexible-products
 
 # Flexible Product
 
-Flexible product means that you are sending your products details through [our API](/API-Reference#section-hosted-flexible), and not storing it in Paymentwall's side.
+Flexible product means that you are sending your products details through [our API](/API-Reference#section-hosted-flexible), and not storing it in Paymentwall side.
 
 Here is a sample using Paylet widget.
 

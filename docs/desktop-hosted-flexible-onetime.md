@@ -7,7 +7,7 @@ permalink: hosted/flexible/onetime
 
 # Onetime Payments
 
-By using onetime payments of flexible products, your customer do a instant payment for only one time. No recurring billing will be applied.
+By using onetime payments of flexible products, your customer do a instant payment for only one time. Non recurring billing will be applied.
 
 ## API Call
 
