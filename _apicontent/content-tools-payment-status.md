@@ -6,7 +6,7 @@ category: section-tools-payment-status
 
 This API allows you to check the status of a payment via payment reference ID.
 
-To activate it please email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com).
+> To activate it please email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com).
 
 ##### Parameters
 

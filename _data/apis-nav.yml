@@ -18,6 +18,8 @@
           title: Onetime
         - name: section-hosted-flexible-subscription
           title: Subscription
+        - name: section-hosted-flexible-server_side
+          title: Server-side
     - name: section-hosted-optional-parameter
       title: Optional Parameter
     - name: section-hosted-invoice
