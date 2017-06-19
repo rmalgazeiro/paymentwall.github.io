@@ -38,6 +38,9 @@
       title: Direct API
       path: /direct-home
       subitems:
+        - id: nav-desktop-direct-payalto
+          title: PAYALTO
+          path: /direct/payalto-home
         - id: nav-desktop-direct-brick
           title: BRICK
           path: /direct/brick-home

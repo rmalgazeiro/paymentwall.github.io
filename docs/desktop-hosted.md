@@ -15,19 +15,17 @@ It can be integrated as widget in your application.
 
 Widget is a web page hosted by Paymentwall to display available payment options to your customers. You can simply display it in a new browser window or embed it into an ```iframe```.
 
-## Payment method categories
+## Included products
 
-Below are the categories which hosted checkout includes.
+Below are the products which hosted checkout includes.
 
-* Credit Cards
+* [PayAlto](/direct/payalto-home).
 
-* Bank Transfer
+* [Brick](/direct/brick-home).
 
-* Prepaid and Cash based methods.
+* [MINT](/direct/mint-home).
 
-* Mobile Payments.
-
-Check [payment methods](https://www.paymentwall.com/payment-methods) for more details.
+* [Mobiamo](/direct/mobiamo-home).
 
 > The payment methods which are shown into widget depends on user's current IP address and configuration in **payment system** of your project.
 
