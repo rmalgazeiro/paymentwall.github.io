@@ -32,3 +32,7 @@ Choose the product which is most suitable for you and start integration with us!
 ## Smart TV
 
 - [SmartTV SDK](/smarttv-sdk). Monetize your SmartTV app globally with the first native payment platform for LG and Samsung SmartTV apps.
+
+## Extensions & Plugins
+
+* [Extensions & Plugins](/modules/aMember). Paymentwall provide a set of plugins to hosting platform.

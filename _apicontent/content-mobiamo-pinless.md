@@ -4,7 +4,11 @@ category: section-mobiamo-pinless
 
 ## Pinless
 
-Pinless API can help you to build your own mobiamo payment form. It is activated by request. To activate it please email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com).
+Pinless API can help you to build your own mobiamo payment form. It is activated by request.
+
+> To activate it please email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com).
+
+##### Parameter
 
 | Name | Description|
 |---|---|

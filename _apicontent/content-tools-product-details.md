@@ -6,7 +6,7 @@ category: section-tools-product-details
 
 You can update the information of a product that is stored under Products Section in Paymentwall Merchant Area by using this API.
 
-To activate it please email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com).
+> To activate it please email us at [devsupport@paymentwall.com](mailto:devsupport@paymentwall.com).
 
 ##### Parameters
 

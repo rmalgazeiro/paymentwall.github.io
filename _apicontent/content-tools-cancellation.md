@@ -5,6 +5,7 @@ category: section-tools-cancellation
 ## Cancellation
 
 This API allows to issue a request to refund a transaction or to cancel a recurring billing payment. If the response is successful, a ticket will be created under [Research and Refund](https://api.paymentwall.com/developers/crm/tickets) in your account.
+
 > Note : If you are using test project key, ticket will not be generated. Please try again with LIVE project key with real transaction.
 
 ##### Parameters
