@@ -13,7 +13,7 @@ permalink: direct/brick/3dsecure
 
 ## Enable 3d secure
 
-By passing ```secure=1``` as an additional parameter in your [charge request](/direct/brick/charge#charge-request), a different charge response includes the 3d secure form which is provided by the card issuing banks of your customers will be returned.
+By passing ```secure=1``` as an additional parameter in your [charge request](/direct/brick/charge#charge-request), a different charge response will be returned. It includes a redirect url which allows you to redirect your customer to the 3d secure form which is provided by the card issuing banks of your customers .
 
 > 3d secure might be a required payment step as judged by our payment risk team. 
 
@@ -32,17 +32,21 @@ Displaying 3d secure form for your customers is the first step. After that, ```b
 
 The implementation is different depending on your payment form.
 
-* Default payment form
+**Default payment form**
 
 If you are using [default payment form](/direct/brick/create-form#tokenize-payment-details-with-default-form), this part is handled by default payment form itself. See [re-submit charge request](#re-submit-charge-request) to continue.
 
-* Custom payment form
+**Custom payment form**
 
 For merchants who prefer [custom payment form](/direct/brick/create-form#tokenize-payment-details-with-your-own-form), the following steps are required:
 
-**Add an additional parameter** ```secure_redirect_url``` **into your** [charge request](/direct/brick/charge#charge-request)
+* Add ```secure_redirect_url``` & ```secure_return_method``` 
+
+You will need to add the above two additional parameter into your [charge request](/direct/brick/charge#charge-request)
 
 ```secure_redirect_url``` is the url where your customer will be redirected after completing the 3D secure step. 
+
+The value of ```secure_return_method``` is required to be set as ```url``` so that you will get a redirect url rather than a html form.
 
 {% assign codeId = "desktop-brick-3dsecure-secure-redirect-url" %}
 <div class="docs-code" id="{{ codeId }}">
@@ -100,9 +104,22 @@ For merchants who prefer [custom payment form](/direct/brick/create-form#tokeniz
 secure_redirect_url: http://your-domain/your-secure-redirect-url?brick_token=ot_4ca5cbda3d4af3444759e4934dd25717&brick_fingerprint=satiO3yvBDuPMEZUJep4vKuqVav5VxAT
 ```
 
-**Obtain 3d secure form and display it**
+* Obtain 3d secure form and display it
 
-With 3d secure enabled, you will get a charge response object contains the 3d secure form. Below is a sample 3D secure form provided by Paymentwall.
+With 3d secure enabled, you will get a charge response object contains the redirect url. Below is a sample charge response object.
+
+```json
+{
+  "success":0,
+  "secure":{
+    "redirect":"https:\/\/api.paymentwall.com\/api\/brick\/redirect\/3ds\/fe989d17-5632-11e7-bfd3-002590852bf4\/44ea915ab53d78f96b3dd485e7a5f8d2441572876f7a2eb88f5101cb197adcc9"
+  }
+}
+```
+
+You can then use it to redirect your customer to 3D secure page. See the next step to continue.
+
+The following additional step are required only if you don't have ```secure_return_method``` included in your original charge request. You will get a html form of 3D Secure instead of redirecting url.
 
 ```json
 {
@@ -122,7 +139,7 @@ Simply obtian the value of ```formHTML``` attribute, embed it into your payment 
 </script>
 ```
 
-**Handle 3d secure details on your backend**
+* Handle 3d secure details on your backend
 
 ```brick_secure_token``` and ```brick_charge_id``` will be sent to ```secure_redirect_url``` via POST each time a payer comfirmed the 3d secure payment step, you can now continue with next step.
 

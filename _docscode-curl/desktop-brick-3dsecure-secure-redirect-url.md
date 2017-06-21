@@ -10,5 +10,6 @@ curl https://api.paymentwall.com/api/brick/charge \
 -d "email=user@host.com" \
 -d "fingerprint=[FINGERPRINT_BY_BRICK.JS]" \
 -d "description=TestItem" \
--d "secure_redirect_url=[YOUR_SECURE_REDIRECT_URL]"
+-d "secure_redirect_url=[YOUR_SECURE_REDIRECT_URL]" \
+-d "secure_return_method=url"
 ```
