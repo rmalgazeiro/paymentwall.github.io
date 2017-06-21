@@ -5,7 +5,8 @@ codeId: desktop-brick-3dsecure-secure-redirect-url
 <?php
 $cardInfo = array(
     ... // other charge parameters
-    'secure_redirect_url' => 'YOUR-SECURE-REDIRECT-URL'
+    'secure_redirect_url' => 'YOUR-SECURE-REDIRECT-URL',
+    'secure_return_method' => 'url'
 );
 ?>
 ```
