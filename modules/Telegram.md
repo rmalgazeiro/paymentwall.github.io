@@ -40,11 +40,11 @@ Please see the [introduction to payments](https://core.telegram.org/bots/payment
 
 You can start to test payments of your projects.
 
-> **[Refer to test payments with test cards](/sandbox/test-payment)**
+> **[Refer to test payments with test cards](/direct/brick/sandbox)**
 
 * After you have tested everything and confirmed that your payments implementation works, you are ready to switch to LIVE MODE. To do this, in [@botfather](https://t.me/botfather) choose your bot and go to Bot Settings -> Payments -> Connect to Paymentwall LIVE Bot
 
-* Go back to your Paymentwall Merchant Area -> My Projects, you will see your new [telegram] project created. Submit this project for approval by pressing the Submit For Review button.
+* Go back to your Paymentwall Merchant Area -> My Projects, you will see your new project **YOUR-REGISTER-NAME[telegram]** created. Submit this project for approval by pressing the Submit For Review button.
 
 * Fill in your bot link, put checkout commands in the test and password field in the Integration Checklist.
 
