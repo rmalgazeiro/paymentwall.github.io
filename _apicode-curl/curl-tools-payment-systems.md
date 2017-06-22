@@ -20,50 +20,46 @@ curl https://api.paymentwall.com/api/payment-systems/ \
 Response:
 
 ```json
-[  
-  {  
-    "id":"cc",
-    "name":"Credit card",
+[
+  {
+    "id":"paypal",
+    "name":"PayPal",
+    "new_window":true,
+    "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_paypal.png",
+    "img_class":"paypal",
+    "ps_type_id":4
+   },
+   {
+    "id":"alipay",
+    "name":"AliPay",
+    "new_window":true,
+    "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_alipay.png",
+    "img_class":"alipay",
+    "ps_type_id":4
+   },
+   {
+    "id":"neosurf",
+    "name":"Neosurf",
     "new_window":false,
-    "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_cc.png"
-  },
-  {  
+    "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_neosurf.png",
+    "img_class":"neosurf",
+    "ps_type_id":3
+   },
+   {
     "id":"mobiamo",
     "name":"Mobiamo",
     "new_window":false,
-    "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_mobilegateway.png",
-    "pricepoints":[
-      {
-        "amount":140,
-        "currency":"RUB",
-        "currency_converted":"USD",
-        "amount_converted":2.95
-      },
-      {
-        "amount":205,
-        "currency":"RUB",
-        "currency_converted":"USD",
-        "amount_converted":4.32
-      },
-      {
-        "amount":307,
-        "currency":"RUB",
-        "currency_converted":"USD",
-        "amount_converted":6.47
-      }
-    ]
-  },
-  {  
-    "id":"webmoney",
-    "name":"Webmoney",
-    "new_window":true,
-    "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_webmoney.png"
-  },
-  {  
-    "id":"qiwiwallet",
-    "name":"Qiwi Wallet",
+    "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_mobiamo.png",
+    "img_class":"mobiamo",
+    "ps_type_id":5
+   },
+   {
+    "id":"mint",
+    "name":"MINT",
     "new_window":false,
-    "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_qiwiwallet.png"
-  }
+    "img_url":"https:\/\/api.paymentwall.com\/images\/ps_logos\/pm_mint.png",
+    "img_class":"mint",
+    "ps_type_id":3
+   }
 ]
 ```

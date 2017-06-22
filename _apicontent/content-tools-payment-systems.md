@@ -25,7 +25,9 @@ Check below for the description of response attributes.
 
 | Name | Description|
 |---|---|
-|id| Payment system shortcode.|
+|id| The payment system shortcode, ```ps```, could be used as [optional parameter](#section-hosted-optional-parameter).|
 |name| Payment system name.|
-|img_url| URL of the payment system logo.|
 |new_window| Payment methods require opening a new window or redirecting users to a new url.|
+|img_url| URL of the payment system logo.|
+|img_class | The class of image. Can be ignored as it doesn't have any usage.|
+|ps_type_id| The payment method category of payment system. <br> 1 - Credit cards. 2 - Bank transfer. 3 - Prepaid cards. 4 - E-wallet. 5 - Mobile payment.|
