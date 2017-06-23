@@ -9,7 +9,7 @@
       path: /hosted-home
       subitems:
         - id: nav-desktop-hosted-stored
-          title: STORED PRODUCT
+          title: Stored product
           path: /hosted/stored-products
           leaves:
             - id: nav-desktop-hosted-stored-dg
@@ -19,7 +19,7 @@
               title: Virtual Currency
               path: /hosted/stored/vc
         - id: nav-desktop-hosted-flexible
-          title: FLEXIBLE PRODUCT
+          title: Flexible product
           path: /hosted/flexible-products
           leaves:
             - id: nav-desktop-hosted-flexible-onetime
@@ -29,20 +29,20 @@
               title: Subscription
               path: /hosted/flexible/subscription
         - id: nav-desktop-hosted-invoice
-          title: INVOICE
+          title: Invoice
           path: /hosted/invoice
         - id: nav-desktop-hosted-offerwall
-          title: OFFERWALL
+          title: Offerwall
           path: /hosted/offerwall-home
     - id: nav-desktop-direct
       title: Direct API
       path: /direct-home
       subitems:
         - id: nav-desktop-direct-payalto
-          title: PAYALTO
+          title: PayAlto
           path: /direct/payalto-home
         - id: nav-desktop-direct-brick
-          title: BRICK
+          title: Brick
           path: /direct/brick-home
           leaves:
             - id: nav-desktop-direct-brick-create_form
@@ -64,7 +64,7 @@
               title: Sandbox
               path: /direct/brick/sandbox
         - id: nav-desktop-direct-mobiamo
-          title: MOBIAMO
+          title: Mobiamo
           path: /direct/mobiamo-home
           leaves:
             - id: nav-desktop-direct-mobiamo-flow

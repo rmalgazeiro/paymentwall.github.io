@@ -832,21 +832,6 @@ p {
     border-left:2px solid #cecece
 }
 
-#nav-desktop-hosted-stored,
-#nav-desktop-hosted-flexible,
-#nav-desktop-direct-brick,
-#nav-desktop-direct-mobiamo,
-#nav-desktop-direct-mint,
-#nav-desktop-direct-payalto,
-#nav-desktop-hosted-invoice,
-#nav-desktop-hosted-offerwall,
-#nav-mobile-sdk,
-#nav-smarttv-sdk{
-    font-weight: bold;
-    font-size: 14px;
-    color: #979b9d;
-}
-
 #nav-desktop-brick-set-product {
     cursor: default;
 }
