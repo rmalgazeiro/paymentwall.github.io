@@ -20,7 +20,7 @@ Here is a sample using m2 widget.
 
 ## Features
 
-Stored product relies on the products selection page, hence it is not available for deep-linked payment systems. See [Flexible Product](/hosted/flexible-products) if you want to have a deep-linked payment system for your application.
+Stored product relies on the products selection page, hence it is not available for deep-linked payment systems. See [Custom price](/hosted/custom-price) if you want to have a deep-linked payment system for your application.
 
 By using stored products:
 

@@ -17,7 +17,7 @@ Choose the product which is most suitable for you and start integration with us!
 
 + [Hosted Checkout](/hosted-home).
     - [Stored product](/hosted/stored-products). 
-    - [Flexible product](/hosted/flexible-products).
+    - [Custom price](/hosted/custom-price).
     - [Invoice](/hosted/invoice). 
     - [Offerwall](/hosted/offerwall-home).
 + [Direct API](/direct-home). 

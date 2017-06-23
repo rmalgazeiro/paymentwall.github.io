@@ -11,14 +11,14 @@
           title: Digital Goods
         - name: section-hosted-stored-vc
           title: Virtual Currency
-    - name: section-hosted-flexible
-      title: Flexible product
+    - name: section-hosted-custom
+      title: Custom price
       subitems:
-        - name: section-hosted-flexible-onetime
+        - name: section-hosted-custom-onetime
           title: Onetime
-        - name: section-hosted-flexible-subscription
+        - name: section-hosted-custom-subscription
           title: Subscription
-        - name: section-hosted-flexible-server_side
+        - name: section-hosted-custom-server_side
           title: Server-side
     - name: section-hosted-optional-parameter
       title: Optional Parameter

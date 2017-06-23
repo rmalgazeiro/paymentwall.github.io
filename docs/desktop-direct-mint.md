@@ -27,7 +27,7 @@ You will be able to sign up with Paymentwall as a MINT Reseller by clicking [her
 
 * **No inventory needed**. You will be able to use [our API](/API-Reference#section-mint-reseller-generate) to generate e-Pins instantly depending on the balance remaining on their merchants account.
 
-* **Localization**. Ability to sell MINT e-pins at flexible denominations and in a local currency to optimize sales in local markets.
+* **Localization**. Ability to sell MINT e-pins at custom denominations and in a local currency to optimize sales in local markets.
 
 ## References 
 

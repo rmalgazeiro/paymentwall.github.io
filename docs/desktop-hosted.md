@@ -33,7 +33,7 @@ Below are the products which hosted checkout includes.
 
 * [Stored product](/hosted/stored-products).
 
-* [Flexible product](/hosted/flexible-products).
+* [Custom price](/hosted/custom-price).
 
 * [Invoice](/hosted/invoice).
 
