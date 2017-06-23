@@ -18,16 +18,16 @@
             - id: nav-desktop-hosted-stored-vc
               title: Virtual Currency
               path: /hosted/stored/vc
-        - id: nav-desktop-hosted-flexible
-          title: Flexible product
-          path: /hosted/flexible-products
+        - id: nav-desktop-hosted-custom
+          title: Custom price
+          path: /hosted/custom-price
           leaves:
-            - id: nav-desktop-hosted-flexible-onetime
+            - id: nav-desktop-hosted-custom-onetime
               title: Onetime
-              path: /hosted/flexible/onetime
-            - id: nav-desktop-hosted-flexible-subscription
+              path: /hosted/custom/onetime
+            - id: nav-desktop-hosted-custom-subscription
               title: Subscription
-              path: /hosted/flexible/subscription
+              path: /hosted/custom/subscription
         - id: nav-desktop-hosted-invoice
           title: Invoice
           path: /hosted/invoice
